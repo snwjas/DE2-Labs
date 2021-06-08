@@ -1,0 +1,530 @@
+Simulator report for part6
+Fri Dec 07 20:19:53 2018
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 185 nodes    ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
+; Device                      ; EP2C35F672C6 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 185          ;
+; Total output ports checked                          ; 185          ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 185          ;
+; Total output ports with no 1-value coverage         ; 185          ;
+; Total output ports with no 0-value coverage         ; 185          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |part6|mux_3bit_8to1:M7|m_2[6]~12 ; |part6|mux_3bit_8to1:M7|m_2[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~13 ; |part6|mux_3bit_8to1:M7|m_2[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~14 ; |part6|mux_3bit_8to1:M7|m_2[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~12 ; |part6|mux_3bit_8to1:M7|m_1[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~13 ; |part6|mux_3bit_8to1:M7|m_1[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~14 ; |part6|mux_3bit_8to1:M7|m_1[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~12 ; |part6|mux_3bit_8to1:M5|m_2[5]~12 ; combout          ;
+; |part6|char_7seg:H7|Display[6]    ; |part6|char_7seg:H7|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[2]~9    ; |part6|mux_3bit_8to1:M7|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[1]~10   ; |part6|mux_3bit_8to1:M7|M[1]~10   ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~12 ; |part6|mux_3bit_8to1:M7|m_0[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~13 ; |part6|mux_3bit_8to1:M7|m_0[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~14 ; |part6|mux_3bit_8to1:M7|m_0[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[0]~11   ; |part6|mux_3bit_8to1:M7|M[0]~11   ; combout          ;
+; |part6|char_7seg:H7|Display[3]    ; |part6|char_7seg:H7|Display[3]    ; combout          ;
+; |part6|char_7seg:H7|Display[2]~13 ; |part6|char_7seg:H7|Display[2]~13 ; combout          ;
+; |part6|char_7seg:H7|Display[0]    ; |part6|char_7seg:H7|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~15 ; |part6|mux_3bit_8to1:M7|m_2[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~12 ; |part6|mux_3bit_8to1:M6|m_2[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[2]~9    ; |part6|mux_3bit_8to1:M6|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[2]~10   ; |part6|mux_3bit_8to1:M6|M[2]~10   ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~15 ; |part6|mux_3bit_8to1:M7|m_1[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_1[6]~12 ; |part6|mux_3bit_8to1:M6|m_1[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[1]~11   ; |part6|mux_3bit_8to1:M6|M[1]~11   ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[1]~12   ; |part6|mux_3bit_8to1:M6|M[1]~12   ; combout          ;
+; |part6|char_7seg:H6|Display[6]    ; |part6|char_7seg:H6|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~15 ; |part6|mux_3bit_8to1:M7|m_0[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_0[6]~12 ; |part6|mux_3bit_8to1:M6|m_0[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[0]~13   ; |part6|mux_3bit_8to1:M6|M[0]~13   ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[0]~14   ; |part6|mux_3bit_8to1:M6|M[0]~14   ; combout          ;
+; |part6|char_7seg:H6|Display[3]    ; |part6|char_7seg:H6|Display[3]    ; combout          ;
+; |part6|char_7seg:H6|Display[2]~9  ; |part6|char_7seg:H6|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H6|Display[0]    ; |part6|char_7seg:H6|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~13 ; |part6|mux_3bit_8to1:M5|m_2[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~14 ; |part6|mux_3bit_8to1:M5|m_2[5]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[2]~9    ; |part6|mux_3bit_8to1:M5|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_1[5]~12 ; |part6|mux_3bit_8to1:M5|m_1[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_1[5]~13 ; |part6|mux_3bit_8to1:M5|m_1[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[1]~10   ; |part6|mux_3bit_8to1:M5|M[1]~10   ; combout          ;
+; |part6|char_7seg:H5|Display[6]    ; |part6|char_7seg:H5|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_0[5]~12 ; |part6|mux_3bit_8to1:M5|m_0[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_0[5]~13 ; |part6|mux_3bit_8to1:M5|m_0[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[0]~11   ; |part6|mux_3bit_8to1:M5|M[0]~11   ; combout          ;
+; |part6|char_7seg:H5|Display[3]    ; |part6|char_7seg:H5|Display[3]    ; combout          ;
+; |part6|char_7seg:H5|Display[2]~9  ; |part6|char_7seg:H5|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H5|Display[0]    ; |part6|char_7seg:H5|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_2[5]~12 ; |part6|mux_3bit_8to1:M4|m_2[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_2[5]~13 ; |part6|mux_3bit_8to1:M4|m_2[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~13 ; |part6|mux_3bit_8to1:M6|m_2[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[2]~9    ; |part6|mux_3bit_8to1:M4|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_1[5]~12 ; |part6|mux_3bit_8to1:M4|m_1[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_1[5]~13 ; |part6|mux_3bit_8to1:M4|m_1[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[1]~10   ; |part6|mux_3bit_8to1:M4|M[1]~10   ; combout          ;
+; |part6|char_7seg:H4|Display[6]    ; |part6|char_7seg:H4|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_0[5]~12 ; |part6|mux_3bit_8to1:M4|m_0[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_0[5]~13 ; |part6|mux_3bit_8to1:M4|m_0[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[0]~11   ; |part6|mux_3bit_8to1:M4|M[0]~11   ; combout          ;
+; |part6|char_7seg:H4|Display[3]    ; |part6|char_7seg:H4|Display[3]    ; combout          ;
+; |part6|char_7seg:H4|Display[2]~9  ; |part6|char_7seg:H4|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H4|Display[0]    ; |part6|char_7seg:H4|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[2]~9    ; |part6|mux_3bit_8to1:M3|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[1]~10   ; |part6|mux_3bit_8to1:M3|M[1]~10   ; combout          ;
+; |part6|char_7seg:H3|Display[6]    ; |part6|char_7seg:H3|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[0]~11   ; |part6|mux_3bit_8to1:M3|M[0]~11   ; combout          ;
+; |part6|char_7seg:H3|Display[3]    ; |part6|char_7seg:H3|Display[3]    ; combout          ;
+; |part6|char_7seg:H3|Display[2]~9  ; |part6|char_7seg:H3|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H3|Display[0]    ; |part6|char_7seg:H3|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~14 ; |part6|mux_3bit_8to1:M6|m_2[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[2]~9    ; |part6|mux_3bit_8to1:M2|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_1[6]~13 ; |part6|mux_3bit_8to1:M6|m_1[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[1]~10   ; |part6|mux_3bit_8to1:M2|M[1]~10   ; combout          ;
+; |part6|char_7seg:H2|Display[6]    ; |part6|char_7seg:H2|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_0[6]~13 ; |part6|mux_3bit_8to1:M6|m_0[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[0]~11   ; |part6|mux_3bit_8to1:M2|M[0]~11   ; combout          ;
+; |part6|char_7seg:H2|Display[3]    ; |part6|char_7seg:H2|Display[3]    ; combout          ;
+; |part6|char_7seg:H2|Display[2]~9  ; |part6|char_7seg:H2|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H2|Display[0]    ; |part6|char_7seg:H2|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[2]~9    ; |part6|mux_3bit_8to1:M1|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[1]~10   ; |part6|mux_3bit_8to1:M1|M[1]~10   ; combout          ;
+; |part6|char_7seg:H1|Display[6]    ; |part6|char_7seg:H1|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[0]~11   ; |part6|mux_3bit_8to1:M1|M[0]~11   ; combout          ;
+; |part6|char_7seg:H1|Display[3]    ; |part6|char_7seg:H1|Display[3]    ; combout          ;
+; |part6|char_7seg:H1|Display[2]~9  ; |part6|char_7seg:H1|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H1|Display[0]    ; |part6|char_7seg:H1|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[2]~9    ; |part6|mux_3bit_8to1:M0|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[1]~10   ; |part6|mux_3bit_8to1:M0|M[1]~10   ; combout          ;
+; |part6|char_7seg:H0|Display[6]    ; |part6|char_7seg:H0|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[0]~11   ; |part6|mux_3bit_8to1:M0|M[0]~11   ; combout          ;
+; |part6|char_7seg:H0|Display[3]    ; |part6|char_7seg:H0|Display[3]    ; combout          ;
+; |part6|char_7seg:H0|Display[2]~9  ; |part6|char_7seg:H0|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H0|Display[0]    ; |part6|char_7seg:H0|Display[0]    ; combout          ;
+; |part6|char_7seg:H7|Display[6]~14 ; |part6|char_7seg:H7|Display[6]~14 ; combout          ;
+; |part6|char_7seg:H7|Display[0]~15 ; |part6|char_7seg:H7|Display[0]~15 ; combout          ;
+; |part6|LEDR[0]                    ; |part6|LEDR[0]                    ; padio            ;
+; |part6|LEDR[1]                    ; |part6|LEDR[1]                    ; padio            ;
+; |part6|LEDR[2]                    ; |part6|LEDR[2]                    ; padio            ;
+; |part6|LEDR[3]                    ; |part6|LEDR[3]                    ; padio            ;
+; |part6|LEDR[4]                    ; |part6|LEDR[4]                    ; padio            ;
+; |part6|LEDR[5]                    ; |part6|LEDR[5]                    ; padio            ;
+; |part6|LEDR[6]                    ; |part6|LEDR[6]                    ; padio            ;
+; |part6|LEDR[7]                    ; |part6|LEDR[7]                    ; padio            ;
+; |part6|LEDR[8]                    ; |part6|LEDR[8]                    ; padio            ;
+; |part6|LEDR[9]                    ; |part6|LEDR[9]                    ; padio            ;
+; |part6|LEDR[10]                   ; |part6|LEDR[10]                   ; padio            ;
+; |part6|LEDR[11]                   ; |part6|LEDR[11]                   ; padio            ;
+; |part6|LEDR[12]                   ; |part6|LEDR[12]                   ; padio            ;
+; |part6|LEDR[13]                   ; |part6|LEDR[13]                   ; padio            ;
+; |part6|LEDR[14]                   ; |part6|LEDR[14]                   ; padio            ;
+; |part6|LEDR[15]                   ; |part6|LEDR[15]                   ; padio            ;
+; |part6|LEDR[16]                   ; |part6|LEDR[16]                   ; padio            ;
+; |part6|LEDR[17]                   ; |part6|LEDR[17]                   ; padio            ;
+; |part6|HEX7[6]                    ; |part6|HEX7[6]                    ; padio            ;
+; |part6|HEX7[5]                    ; |part6|HEX7[5]                    ; padio            ;
+; |part6|HEX7[4]                    ; |part6|HEX7[4]                    ; padio            ;
+; |part6|HEX7[3]                    ; |part6|HEX7[3]                    ; padio            ;
+; |part6|HEX7[2]                    ; |part6|HEX7[2]                    ; padio            ;
+; |part6|HEX7[1]                    ; |part6|HEX7[1]                    ; padio            ;
+; |part6|HEX7[0]                    ; |part6|HEX7[0]                    ; padio            ;
+; |part6|HEX6[6]                    ; |part6|HEX6[6]                    ; padio            ;
+; |part6|HEX6[5]                    ; |part6|HEX6[5]                    ; padio            ;
+; |part6|HEX6[4]                    ; |part6|HEX6[4]                    ; padio            ;
+; |part6|HEX6[3]                    ; |part6|HEX6[3]                    ; padio            ;
+; |part6|HEX6[2]                    ; |part6|HEX6[2]                    ; padio            ;
+; |part6|HEX6[1]                    ; |part6|HEX6[1]                    ; padio            ;
+; |part6|HEX6[0]                    ; |part6|HEX6[0]                    ; padio            ;
+; |part6|HEX5[6]                    ; |part6|HEX5[6]                    ; padio            ;
+; |part6|HEX5[5]                    ; |part6|HEX5[5]                    ; padio            ;
+; |part6|HEX5[4]                    ; |part6|HEX5[4]                    ; padio            ;
+; |part6|HEX5[3]                    ; |part6|HEX5[3]                    ; padio            ;
+; |part6|HEX5[2]                    ; |part6|HEX5[2]                    ; padio            ;
+; |part6|HEX5[1]                    ; |part6|HEX5[1]                    ; padio            ;
+; |part6|HEX5[0]                    ; |part6|HEX5[0]                    ; padio            ;
+; |part6|HEX4[6]                    ; |part6|HEX4[6]                    ; padio            ;
+; |part6|HEX4[5]                    ; |part6|HEX4[5]                    ; padio            ;
+; |part6|HEX4[4]                    ; |part6|HEX4[4]                    ; padio            ;
+; |part6|HEX4[3]                    ; |part6|HEX4[3]                    ; padio            ;
+; |part6|HEX4[2]                    ; |part6|HEX4[2]                    ; padio            ;
+; |part6|HEX4[1]                    ; |part6|HEX4[1]                    ; padio            ;
+; |part6|HEX4[0]                    ; |part6|HEX4[0]                    ; padio            ;
+; |part6|HEX3[6]                    ; |part6|HEX3[6]                    ; padio            ;
+; |part6|HEX3[5]                    ; |part6|HEX3[5]                    ; padio            ;
+; |part6|HEX3[4]                    ; |part6|HEX3[4]                    ; padio            ;
+; |part6|HEX3[3]                    ; |part6|HEX3[3]                    ; padio            ;
+; |part6|HEX3[2]                    ; |part6|HEX3[2]                    ; padio            ;
+; |part6|HEX3[1]                    ; |part6|HEX3[1]                    ; padio            ;
+; |part6|HEX3[0]                    ; |part6|HEX3[0]                    ; padio            ;
+; |part6|HEX2[6]                    ; |part6|HEX2[6]                    ; padio            ;
+; |part6|HEX2[5]                    ; |part6|HEX2[5]                    ; padio            ;
+; |part6|HEX2[4]                    ; |part6|HEX2[4]                    ; padio            ;
+; |part6|HEX2[3]                    ; |part6|HEX2[3]                    ; padio            ;
+; |part6|HEX2[2]                    ; |part6|HEX2[2]                    ; padio            ;
+; |part6|HEX2[1]                    ; |part6|HEX2[1]                    ; padio            ;
+; |part6|HEX2[0]                    ; |part6|HEX2[0]                    ; padio            ;
+; |part6|HEX1[6]                    ; |part6|HEX1[6]                    ; padio            ;
+; |part6|HEX1[5]                    ; |part6|HEX1[5]                    ; padio            ;
+; |part6|HEX1[4]                    ; |part6|HEX1[4]                    ; padio            ;
+; |part6|HEX1[3]                    ; |part6|HEX1[3]                    ; padio            ;
+; |part6|HEX1[2]                    ; |part6|HEX1[2]                    ; padio            ;
+; |part6|HEX1[1]                    ; |part6|HEX1[1]                    ; padio            ;
+; |part6|HEX1[0]                    ; |part6|HEX1[0]                    ; padio            ;
+; |part6|HEX0[6]                    ; |part6|HEX0[6]                    ; padio            ;
+; |part6|HEX0[5]                    ; |part6|HEX0[5]                    ; padio            ;
+; |part6|HEX0[4]                    ; |part6|HEX0[4]                    ; padio            ;
+; |part6|HEX0[3]                    ; |part6|HEX0[3]                    ; padio            ;
+; |part6|HEX0[2]                    ; |part6|HEX0[2]                    ; padio            ;
+; |part6|HEX0[1]                    ; |part6|HEX0[1]                    ; padio            ;
+; |part6|HEX0[0]                    ; |part6|HEX0[0]                    ; padio            ;
+; |part6|SW[0]                      ; |part6|SW[0]~corein               ; combout          ;
+; |part6|SW[1]                      ; |part6|SW[1]~corein               ; combout          ;
+; |part6|SW[2]                      ; |part6|SW[2]~corein               ; combout          ;
+; |part6|SW[3]                      ; |part6|SW[3]~corein               ; combout          ;
+; |part6|SW[4]                      ; |part6|SW[4]~corein               ; combout          ;
+; |part6|SW[5]                      ; |part6|SW[5]~corein               ; combout          ;
+; |part6|SW[6]                      ; |part6|SW[6]~corein               ; combout          ;
+; |part6|SW[7]                      ; |part6|SW[7]~corein               ; combout          ;
+; |part6|SW[8]                      ; |part6|SW[8]~corein               ; combout          ;
+; |part6|SW[9]                      ; |part6|SW[9]~corein               ; combout          ;
+; |part6|SW[10]                     ; |part6|SW[10]~corein              ; combout          ;
+; |part6|SW[11]                     ; |part6|SW[11]~corein              ; combout          ;
+; |part6|SW[12]                     ; |part6|SW[12]~corein              ; combout          ;
+; |part6|SW[13]                     ; |part6|SW[13]~corein              ; combout          ;
+; |part6|SW[14]                     ; |part6|SW[14]~corein              ; combout          ;
+; |part6|SW[15]                     ; |part6|SW[15]~corein              ; combout          ;
+; |part6|SW[16]                     ; |part6|SW[16]~corein              ; combout          ;
+; |part6|SW[17]                     ; |part6|SW[17]~corein              ; combout          ;
++-----------------------------------+-----------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |part6|mux_3bit_8to1:M7|m_2[6]~12 ; |part6|mux_3bit_8to1:M7|m_2[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~13 ; |part6|mux_3bit_8to1:M7|m_2[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~14 ; |part6|mux_3bit_8to1:M7|m_2[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~12 ; |part6|mux_3bit_8to1:M7|m_1[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~13 ; |part6|mux_3bit_8to1:M7|m_1[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~14 ; |part6|mux_3bit_8to1:M7|m_1[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~12 ; |part6|mux_3bit_8to1:M5|m_2[5]~12 ; combout          ;
+; |part6|char_7seg:H7|Display[6]    ; |part6|char_7seg:H7|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[2]~9    ; |part6|mux_3bit_8to1:M7|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[1]~10   ; |part6|mux_3bit_8to1:M7|M[1]~10   ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~12 ; |part6|mux_3bit_8to1:M7|m_0[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~13 ; |part6|mux_3bit_8to1:M7|m_0[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~14 ; |part6|mux_3bit_8to1:M7|m_0[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M7|M[0]~11   ; |part6|mux_3bit_8to1:M7|M[0]~11   ; combout          ;
+; |part6|char_7seg:H7|Display[3]    ; |part6|char_7seg:H7|Display[3]    ; combout          ;
+; |part6|char_7seg:H7|Display[2]~13 ; |part6|char_7seg:H7|Display[2]~13 ; combout          ;
+; |part6|char_7seg:H7|Display[0]    ; |part6|char_7seg:H7|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_2[6]~15 ; |part6|mux_3bit_8to1:M7|m_2[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~12 ; |part6|mux_3bit_8to1:M6|m_2[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[2]~9    ; |part6|mux_3bit_8to1:M6|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[2]~10   ; |part6|mux_3bit_8to1:M6|M[2]~10   ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_1[6]~15 ; |part6|mux_3bit_8to1:M7|m_1[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_1[6]~12 ; |part6|mux_3bit_8to1:M6|m_1[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[1]~11   ; |part6|mux_3bit_8to1:M6|M[1]~11   ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[1]~12   ; |part6|mux_3bit_8to1:M6|M[1]~12   ; combout          ;
+; |part6|char_7seg:H6|Display[6]    ; |part6|char_7seg:H6|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M7|m_0[6]~15 ; |part6|mux_3bit_8to1:M7|m_0[6]~15 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_0[6]~12 ; |part6|mux_3bit_8to1:M6|m_0[6]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[0]~13   ; |part6|mux_3bit_8to1:M6|M[0]~13   ; combout          ;
+; |part6|mux_3bit_8to1:M6|M[0]~14   ; |part6|mux_3bit_8to1:M6|M[0]~14   ; combout          ;
+; |part6|char_7seg:H6|Display[3]    ; |part6|char_7seg:H6|Display[3]    ; combout          ;
+; |part6|char_7seg:H6|Display[2]~9  ; |part6|char_7seg:H6|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H6|Display[0]    ; |part6|char_7seg:H6|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~13 ; |part6|mux_3bit_8to1:M5|m_2[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_2[5]~14 ; |part6|mux_3bit_8to1:M5|m_2[5]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[2]~9    ; |part6|mux_3bit_8to1:M5|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_1[5]~12 ; |part6|mux_3bit_8to1:M5|m_1[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_1[5]~13 ; |part6|mux_3bit_8to1:M5|m_1[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[1]~10   ; |part6|mux_3bit_8to1:M5|M[1]~10   ; combout          ;
+; |part6|char_7seg:H5|Display[6]    ; |part6|char_7seg:H5|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_0[5]~12 ; |part6|mux_3bit_8to1:M5|m_0[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M5|m_0[5]~13 ; |part6|mux_3bit_8to1:M5|m_0[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M5|M[0]~11   ; |part6|mux_3bit_8to1:M5|M[0]~11   ; combout          ;
+; |part6|char_7seg:H5|Display[3]    ; |part6|char_7seg:H5|Display[3]    ; combout          ;
+; |part6|char_7seg:H5|Display[2]~9  ; |part6|char_7seg:H5|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H5|Display[0]    ; |part6|char_7seg:H5|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_2[5]~12 ; |part6|mux_3bit_8to1:M4|m_2[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_2[5]~13 ; |part6|mux_3bit_8to1:M4|m_2[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~13 ; |part6|mux_3bit_8to1:M6|m_2[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[2]~9    ; |part6|mux_3bit_8to1:M4|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_1[5]~12 ; |part6|mux_3bit_8to1:M4|m_1[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_1[5]~13 ; |part6|mux_3bit_8to1:M4|m_1[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[1]~10   ; |part6|mux_3bit_8to1:M4|M[1]~10   ; combout          ;
+; |part6|char_7seg:H4|Display[6]    ; |part6|char_7seg:H4|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_0[5]~12 ; |part6|mux_3bit_8to1:M4|m_0[5]~12 ; combout          ;
+; |part6|mux_3bit_8to1:M4|m_0[5]~13 ; |part6|mux_3bit_8to1:M4|m_0[5]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M4|M[0]~11   ; |part6|mux_3bit_8to1:M4|M[0]~11   ; combout          ;
+; |part6|char_7seg:H4|Display[3]    ; |part6|char_7seg:H4|Display[3]    ; combout          ;
+; |part6|char_7seg:H4|Display[2]~9  ; |part6|char_7seg:H4|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H4|Display[0]    ; |part6|char_7seg:H4|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[2]~9    ; |part6|mux_3bit_8to1:M3|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[1]~10   ; |part6|mux_3bit_8to1:M3|M[1]~10   ; combout          ;
+; |part6|char_7seg:H3|Display[6]    ; |part6|char_7seg:H3|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M3|M[0]~11   ; |part6|mux_3bit_8to1:M3|M[0]~11   ; combout          ;
+; |part6|char_7seg:H3|Display[3]    ; |part6|char_7seg:H3|Display[3]    ; combout          ;
+; |part6|char_7seg:H3|Display[2]~9  ; |part6|char_7seg:H3|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H3|Display[0]    ; |part6|char_7seg:H3|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_2[6]~14 ; |part6|mux_3bit_8to1:M6|m_2[6]~14 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[2]~9    ; |part6|mux_3bit_8to1:M2|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_1[6]~13 ; |part6|mux_3bit_8to1:M6|m_1[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[1]~10   ; |part6|mux_3bit_8to1:M2|M[1]~10   ; combout          ;
+; |part6|char_7seg:H2|Display[6]    ; |part6|char_7seg:H2|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M6|m_0[6]~13 ; |part6|mux_3bit_8to1:M6|m_0[6]~13 ; combout          ;
+; |part6|mux_3bit_8to1:M2|M[0]~11   ; |part6|mux_3bit_8to1:M2|M[0]~11   ; combout          ;
+; |part6|char_7seg:H2|Display[3]    ; |part6|char_7seg:H2|Display[3]    ; combout          ;
+; |part6|char_7seg:H2|Display[2]~9  ; |part6|char_7seg:H2|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H2|Display[0]    ; |part6|char_7seg:H2|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[2]~9    ; |part6|mux_3bit_8to1:M1|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[1]~10   ; |part6|mux_3bit_8to1:M1|M[1]~10   ; combout          ;
+; |part6|char_7seg:H1|Display[6]    ; |part6|char_7seg:H1|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M1|M[0]~11   ; |part6|mux_3bit_8to1:M1|M[0]~11   ; combout          ;
+; |part6|char_7seg:H1|Display[3]    ; |part6|char_7seg:H1|Display[3]    ; combout          ;
+; |part6|char_7seg:H1|Display[2]~9  ; |part6|char_7seg:H1|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H1|Display[0]    ; |part6|char_7seg:H1|Display[0]    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[2]~9    ; |part6|mux_3bit_8to1:M0|M[2]~9    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[1]~10   ; |part6|mux_3bit_8to1:M0|M[1]~10   ; combout          ;
+; |part6|char_7seg:H0|Display[6]    ; |part6|char_7seg:H0|Display[6]    ; combout          ;
+; |part6|mux_3bit_8to1:M0|M[0]~11   ; |part6|mux_3bit_8to1:M0|M[0]~11   ; combout          ;
+; |part6|char_7seg:H0|Display[3]    ; |part6|char_7seg:H0|Display[3]    ; combout          ;
+; |part6|char_7seg:H0|Display[2]~9  ; |part6|char_7seg:H0|Display[2]~9  ; combout          ;
+; |part6|char_7seg:H0|Display[0]    ; |part6|char_7seg:H0|Display[0]    ; combout          ;
+; |part6|char_7seg:H7|Display[6]~14 ; |part6|char_7seg:H7|Display[6]~14 ; combout          ;
+; |part6|char_7seg:H7|Display[0]~15 ; |part6|char_7seg:H7|Display[0]~15 ; combout          ;
+; |part6|LEDR[0]                    ; |part6|LEDR[0]                    ; padio            ;
+; |part6|LEDR[1]                    ; |part6|LEDR[1]                    ; padio            ;
+; |part6|LEDR[2]                    ; |part6|LEDR[2]                    ; padio            ;
+; |part6|LEDR[3]                    ; |part6|LEDR[3]                    ; padio            ;
+; |part6|LEDR[4]                    ; |part6|LEDR[4]                    ; padio            ;
+; |part6|LEDR[5]                    ; |part6|LEDR[5]                    ; padio            ;
+; |part6|LEDR[6]                    ; |part6|LEDR[6]                    ; padio            ;
+; |part6|LEDR[7]                    ; |part6|LEDR[7]                    ; padio            ;
+; |part6|LEDR[8]                    ; |part6|LEDR[8]                    ; padio            ;
+; |part6|LEDR[9]                    ; |part6|LEDR[9]                    ; padio            ;
+; |part6|LEDR[10]                   ; |part6|LEDR[10]                   ; padio            ;
+; |part6|LEDR[11]                   ; |part6|LEDR[11]                   ; padio            ;
+; |part6|LEDR[12]                   ; |part6|LEDR[12]                   ; padio            ;
+; |part6|LEDR[13]                   ; |part6|LEDR[13]                   ; padio            ;
+; |part6|LEDR[14]                   ; |part6|LEDR[14]                   ; padio            ;
+; |part6|LEDR[15]                   ; |part6|LEDR[15]                   ; padio            ;
+; |part6|LEDR[16]                   ; |part6|LEDR[16]                   ; padio            ;
+; |part6|LEDR[17]                   ; |part6|LEDR[17]                   ; padio            ;
+; |part6|HEX7[6]                    ; |part6|HEX7[6]                    ; padio            ;
+; |part6|HEX7[5]                    ; |part6|HEX7[5]                    ; padio            ;
+; |part6|HEX7[4]                    ; |part6|HEX7[4]                    ; padio            ;
+; |part6|HEX7[3]                    ; |part6|HEX7[3]                    ; padio            ;
+; |part6|HEX7[2]                    ; |part6|HEX7[2]                    ; padio            ;
+; |part6|HEX7[1]                    ; |part6|HEX7[1]                    ; padio            ;
+; |part6|HEX7[0]                    ; |part6|HEX7[0]                    ; padio            ;
+; |part6|HEX6[6]                    ; |part6|HEX6[6]                    ; padio            ;
+; |part6|HEX6[5]                    ; |part6|HEX6[5]                    ; padio            ;
+; |part6|HEX6[4]                    ; |part6|HEX6[4]                    ; padio            ;
+; |part6|HEX6[3]                    ; |part6|HEX6[3]                    ; padio            ;
+; |part6|HEX6[2]                    ; |part6|HEX6[2]                    ; padio            ;
+; |part6|HEX6[1]                    ; |part6|HEX6[1]                    ; padio            ;
+; |part6|HEX6[0]                    ; |part6|HEX6[0]                    ; padio            ;
+; |part6|HEX5[6]                    ; |part6|HEX5[6]                    ; padio            ;
+; |part6|HEX5[5]                    ; |part6|HEX5[5]                    ; padio            ;
+; |part6|HEX5[4]                    ; |part6|HEX5[4]                    ; padio            ;
+; |part6|HEX5[3]                    ; |part6|HEX5[3]                    ; padio            ;
+; |part6|HEX5[2]                    ; |part6|HEX5[2]                    ; padio            ;
+; |part6|HEX5[1]                    ; |part6|HEX5[1]                    ; padio            ;
+; |part6|HEX5[0]                    ; |part6|HEX5[0]                    ; padio            ;
+; |part6|HEX4[6]                    ; |part6|HEX4[6]                    ; padio            ;
+; |part6|HEX4[5]                    ; |part6|HEX4[5]                    ; padio            ;
+; |part6|HEX4[4]                    ; |part6|HEX4[4]                    ; padio            ;
+; |part6|HEX4[3]                    ; |part6|HEX4[3]                    ; padio            ;
+; |part6|HEX4[2]                    ; |part6|HEX4[2]                    ; padio            ;
+; |part6|HEX4[1]                    ; |part6|HEX4[1]                    ; padio            ;
+; |part6|HEX4[0]                    ; |part6|HEX4[0]                    ; padio            ;
+; |part6|HEX3[6]                    ; |part6|HEX3[6]                    ; padio            ;
+; |part6|HEX3[5]                    ; |part6|HEX3[5]                    ; padio            ;
+; |part6|HEX3[4]                    ; |part6|HEX3[4]                    ; padio            ;
+; |part6|HEX3[3]                    ; |part6|HEX3[3]                    ; padio            ;
+; |part6|HEX3[2]                    ; |part6|HEX3[2]                    ; padio            ;
+; |part6|HEX3[1]                    ; |part6|HEX3[1]                    ; padio            ;
+; |part6|HEX3[0]                    ; |part6|HEX3[0]                    ; padio            ;
+; |part6|HEX2[6]                    ; |part6|HEX2[6]                    ; padio            ;
+; |part6|HEX2[5]                    ; |part6|HEX2[5]                    ; padio            ;
+; |part6|HEX2[4]                    ; |part6|HEX2[4]                    ; padio            ;
+; |part6|HEX2[3]                    ; |part6|HEX2[3]                    ; padio            ;
+; |part6|HEX2[2]                    ; |part6|HEX2[2]                    ; padio            ;
+; |part6|HEX2[1]                    ; |part6|HEX2[1]                    ; padio            ;
+; |part6|HEX2[0]                    ; |part6|HEX2[0]                    ; padio            ;
+; |part6|HEX1[6]                    ; |part6|HEX1[6]                    ; padio            ;
+; |part6|HEX1[5]                    ; |part6|HEX1[5]                    ; padio            ;
+; |part6|HEX1[4]                    ; |part6|HEX1[4]                    ; padio            ;
+; |part6|HEX1[3]                    ; |part6|HEX1[3]                    ; padio            ;
+; |part6|HEX1[2]                    ; |part6|HEX1[2]                    ; padio            ;
+; |part6|HEX1[1]                    ; |part6|HEX1[1]                    ; padio            ;
+; |part6|HEX1[0]                    ; |part6|HEX1[0]                    ; padio            ;
+; |part6|HEX0[6]                    ; |part6|HEX0[6]                    ; padio            ;
+; |part6|HEX0[5]                    ; |part6|HEX0[5]                    ; padio            ;
+; |part6|HEX0[4]                    ; |part6|HEX0[4]                    ; padio            ;
+; |part6|HEX0[3]                    ; |part6|HEX0[3]                    ; padio            ;
+; |part6|HEX0[2]                    ; |part6|HEX0[2]                    ; padio            ;
+; |part6|HEX0[1]                    ; |part6|HEX0[1]                    ; padio            ;
+; |part6|HEX0[0]                    ; |part6|HEX0[0]                    ; padio            ;
+; |part6|SW[0]                      ; |part6|SW[0]~corein               ; combout          ;
+; |part6|SW[1]                      ; |part6|SW[1]~corein               ; combout          ;
+; |part6|SW[2]                      ; |part6|SW[2]~corein               ; combout          ;
+; |part6|SW[3]                      ; |part6|SW[3]~corein               ; combout          ;
+; |part6|SW[4]                      ; |part6|SW[4]~corein               ; combout          ;
+; |part6|SW[5]                      ; |part6|SW[5]~corein               ; combout          ;
+; |part6|SW[6]                      ; |part6|SW[6]~corein               ; combout          ;
+; |part6|SW[7]                      ; |part6|SW[7]~corein               ; combout          ;
+; |part6|SW[8]                      ; |part6|SW[8]~corein               ; combout          ;
+; |part6|SW[9]                      ; |part6|SW[9]~corein               ; combout          ;
+; |part6|SW[10]                     ; |part6|SW[10]~corein              ; combout          ;
+; |part6|SW[11]                     ; |part6|SW[11]~corein              ; combout          ;
+; |part6|SW[12]                     ; |part6|SW[12]~corein              ; combout          ;
+; |part6|SW[13]                     ; |part6|SW[13]~corein              ; combout          ;
+; |part6|SW[14]                     ; |part6|SW[14]~corein              ; combout          ;
+; |part6|SW[15]                     ; |part6|SW[15]~corein              ; combout          ;
+; |part6|SW[16]                     ; |part6|SW[16]~corein              ; combout          ;
+; |part6|SW[17]                     ; |part6|SW[17]~corein              ; combout          ;
++-----------------------------------+-----------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Fri Dec 07 20:19:53 2018
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off part6 -c part6
+Info: Using vector source file "D:/Programming/VHDL/ED2_labs1/Part6/part6.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 219 megabytes
+    Info: Processing ended: Fri Dec 07 20:19:53 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+

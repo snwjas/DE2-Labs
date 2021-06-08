@@ -1,0 +1,109 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY part5 IS
+    PORT (CLOCK_50 : IN STD_LOGIC;
+		  HEX7, HEX6, HEX5, HEX4 : OUT STD_LOGIC_VECTOR(0 TO 6);
+		  HEX3, HEX2, HEX1, HEX0 : OUT STD_LOGIC_VECTOR(0 TO 6)
+	);
+END part5;
+
+ARCHITECTURE behavioral OF part5 IS
+    SIGNAL count : INTEGER RANGE 0 TO 9 := 0;
+    SIGNAL countsec : INTEGER RANGE 0 TO 49999999 := 0;
+
+    BEGIN
+		clk_counter: PROCESS (CLOCK_50)
+		BEGIN
+			IF CLOCK_50'EVENT AND CLOCK_50 = '1' THEN
+				IF countsec = 49999999 THEN
+					countsec <= 0;
+					IF count < 7 THEN
+						count <= count+1;
+					ELSE
+						count <= 0;
+					END IF;
+				ELSE
+					countsec <= countsec+1;
+				END IF;
+			END IF;
+		END PROCESS;
+
+		char_7seg: PROCESS (count)
+		BEGIN
+			IF count = 0 THEN
+				HEX7 <= "1111111";  -- blank
+				HEX6 <= "1111111";  -- blank
+				HEX5 <= "1111111";  -- blank
+				HEX4 <= "1001000";  -- H
+				HEX3 <= "0110000";  -- E
+				HEX2 <= "1110001";  -- L
+				HEX1 <= "1110001";  -- L
+				HEX0 <= "0000001";  -- O
+			ELSIF count = 1 THEN
+				HEX7 <= "1111111";
+				HEX6 <= "1111111";
+				HEX5 <= "1001000";
+				HEX4 <= "0110000";
+				HEX3 <= "1110001";
+				HEX2 <= "1110001";
+				HEX1 <= "0000001";
+				HEX0 <= "1111111";
+			ELSIF count = 2 THEN
+				HEX7 <= "1111111";
+				HEX6 <= "1001000";
+				HEX5 <= "0110000";
+				HEX4 <= "1110001";
+				HEX3 <= "1110001";
+				HEX2 <= "0000001";
+				HEX1 <= "1111111";
+				HEX0 <= "1111111";
+			ELSIF count = 3 THEN
+				HEX7 <= "1001000";
+				HEX6 <= "0110000";
+				HEX5 <= "1110001";
+				HEX4 <= "1110001";
+				HEX3 <= "0000001";
+				HEX2 <= "1111111";
+				HEX1 <= "1111111";
+				HEX0 <= "1111111";
+			ELSIF count = 4 THEN
+				HEX7 <= "0110000";
+				HEX6 <= "1110001";
+				HEX5 <= "1110001";
+				HEX4 <= "0000001";
+				HEX3 <= "1111111";
+				HEX2 <= "1111111";
+				HEX1 <= "1111111";
+				HEX0 <= "1001000";
+			ELSIF count = 5 THEN
+				HEX7 <= "1110001";
+				HEX6 <= "1110001";
+				HEX5 <= "0000001";
+				HEX4 <= "1111111";
+				HEX3 <= "1111111";
+				HEX2 <= "1111111";
+				HEX1 <= "1001000";
+				HEX0 <= "0110000";
+			ELSIF count = 6 THEN
+				HEX7 <= "1110001";
+				HEX6 <= "0000001";
+				HEX5 <= "1111111";
+				HEX4 <= "1111111";
+				HEX3 <= "1111111";
+				HEX2 <= "1001000";
+				HEX1 <= "0110000";
+				HEX0 <= "1110001";
+			ELSE
+				HEX7 <= "0000001";
+				HEX6 <= "1111111";
+				HEX5 <= "1111111";
+				HEX4 <= "1111111";
+				HEX3 <= "1001000";
+				HEX2 <= "0110000";
+				HEX1 <= "1110001";
+				HEX0 <= "1110001";
+			END IF;
+		END PROCESS;
+
+END behavioral;

@@ -1,0 +1,20 @@
+-- 
+LiBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY part3 IS
+	PORT (Clk, Clr, T : IN STD_LOGIC;
+		  Q : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+	);
+END part3;
+
+ARCHITECTURE Behavioral OF part3 IS
+	COMPONENT counter16
+		PORT (clock, cnt_en, sclr : IN STD_LOGIC;
+			  q : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+		);
+	END COMPONENT;
+
+	BEGIN
+		counter: counter16 PORT MAP(Clk, T, Clr, Q);
+END ARCHITECTURE;

@@ -1,0 +1,13 @@
+The following laboratory exercises cover basic concepts such as switches, lights, and multiplexers, as well as common building blocks like arithmetic circuits, latches, registers, counters, and finite state machines.
+	Lab 1 - Switches, Lights, and Multiplexers
+	Lab 2 - Numbers and Displays
+	Lab 3 - Latches, Flip-flops, and Registers
+	Lab 4 - Counters
+	Lab 5 - Timers and Real-Time Clock
+	Lab 6 - Adders, Subtractors, and Multipliers
+	Lab 7 - Finite State Machines
+	Lab 8 - Memory Blocks
+	Lab 9 - A Simple Processor
+	Lab 10 - An Enhanced Processor
+	Lab 11 - Implementing Algorithms in Hardware
+	Lab 12 - Basic Digital Signal Processing

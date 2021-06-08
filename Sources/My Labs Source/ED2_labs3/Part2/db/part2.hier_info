@@ -1,0 +1,14 @@
+|part2
+SW[0] => D_latch:U1.D
+SW[1] => D_latch:U1.Clk
+LEDR[0] <= D_latch:U1.Q
+
+
+|part2|D_latch:U1
+Clk => R_g~0.IN0
+Clk => S_g~0.IN1
+D => S_g~0.IN0
+D => R.DATAIN
+Q <= Q~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,2703 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://embdev.net/topic/394849
+Subject: Flashing digits from 0 to 9 - EmbDev.net
+Date: Sun, 1 Dec 2018 04:21:42 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----"
+
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: text/html
+Content-ID: <frame-21-dc83bd61-66f9-4e05-aa72-55d7fca54026@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://embdev.net/topic/394849
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr"><head><meta http-equiv=3D"Cont=
+ent-Type" content=3D"text/html; charset=3DUTF-8">
+  <title>
+      Flashing digits from 0 to 9 - EmbDev.net
+  </title>
+ =20
+
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1=
+.0">
+
+	<link rel=3D"stylesheet" media=3D"all" href=3D"https://embdev.net/assets/s=
+creen-41cf1a53959b4ba4215b236b4b4e3d9af50e6ce21790f1d31c9df01766366e27.css"=
+>
+	<link rel=3D"stylesheet" media=3D"print" href=3D"https://embdev.net/assets=
+/print-80f24115f86985d1d30d60a2b339bf75dbcaa308b178ae1f8f564dce91da9e1a.css=
+">
+
+  <link rel=3D"shortcut icon" type=3D"image/x-icon" href=3D"https://embdev.=
+net/favicon.ico">
+  <link rel=3D"canonical" href=3D"https://embdev.net/topic/394849">
+
+	<meta name=3D"csrf-param" content=3D"authenticity_token">
+<meta name=3D"csrf-token" content=3D"CnvILNP/v7Xc1Fns/nYgMUF+u/j2U9NIvCh/ql=
+5pHUbQjZNhH/70nkaFope1u7rgK72iOmsxrUTG+cjg+PHIUA=3D=3D">
+
+
+<style type=3D"text/css">
+
+
+.flattr-link {display: none;}
+
+.sticky {position: static ! important;}
+</style>
+
+
+
+
+	=20
+=09
+
+  <link rel=3D"alternate" type=3D"application/atom+xml" title=3D"EmbDev.net=
+ Newsfeed" href=3D"https://embdev.net/newsfeed">
+
+  <!-- Forum Feeds -->
+  <link rel=3D"alternate" type=3D"application/atom+xml" title=3D"New posts =
+in all forums" href=3D"https://embdev.net/feed/global">
+   <link rel=3D"alternate" type=3D"application/atom+xml" title=3D"New posts=
+ in the forum &quot;FPGA, VHDL &amp; Verilog&quot;" href=3D"https://embdev.=
+net/feed/forum/24">=20
+   <link rel=3D"alternate" type=3D"application/atom+xml" title=3D"New posts=
+ in the topic &quot;Flashing digits from 0 to 9&quot;" href=3D"https://embd=
+ev.net/feed/topic/394849">=20
+ =20
+  <!-- / Forum Feeds -->
+
+    <meta name=3D"robots" content=3D"NOODP">
+
+  <link rel=3D"search" type=3D"application/opensearchdescription+xml" title=
+=3D"EmbDev.net" href=3D"https://embdev.net/searchplugin.xml">
+
+<!--[if IE 7]><style>
+.gainlayout { zoom: 1;}
+</style><![endif]-->
+
+<!-- <link rel=3D"stylesheet" href=3D"//code.jquery.com/ui/1.10.3/themes/sm=
+oothness/jquery-ui.css"> -->
+<style type=3D"text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-col=
+or: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-in=
+dex: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-ind=
+ex: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style>
+
+
+
+ =20
+
+<!--
+-->
+
+
+
+
+
+<!-- PUT THIS TAG IN THE head SECTION -->
+
+<!-- END OF TAG FOR head SECTION -->
+
+
+
+
+
+<!--
+<script type=3D"text/javascript">
+var _paq =3D _paq || [];
+(function(){ var u=3D"//www.mikrocontroller.net/piwik/";
+_paq.push(['setSiteId', 1]);
+_paq.push(['setTrackerUrl', u+'piwik.php']);
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+var d=3Ddocument, g=3Dd.createElement('script'), s=3Dd.getElementsByTagName=
+('script')[0]; g.type=3D'text/javascript'; g.defer=3Dtrue; g.async=3Dtrue; =
+g.src=3Du+'piwik.js';
+s.parentNode.insertBefore(g,s); })();
+ </script>
+-->
+<meta name=3D"google-translate-customization" content=3D"5ced0b84f202ea5b-a=
+e0c3756d2b00e02-g6a9f31b5bb528ccf-17">
+<style type=3D"text/css">#MathJax_About {position: fixed; left: 50%; width:=
+ auto; text-align: center; border: 3px outset; padding: 1em 2em; background=
+-color: #DDDDDD; color: black; cursor: default; font-family: message-box; f=
+ont-size: 120%; font-style: normal; text-indent: 0; text-transform: none; l=
+ine-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap=
+: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15=
+px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-ra=
+dius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px=
+ 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0=
+px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(=
+OffX=3D2, OffY=3D2, Color=3D'gray', Positive=3D'true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; w=
+idth: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: def=
+ault; font: menu; text-align: left; text-indent: 0; text-transform: none; l=
+ine-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap=
+: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 1=
+0px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shado=
+w: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter:=
+ progid:DXImageTransform.Microsoft.dropshadow(OffX=3D2, OffY=3D2, Color=3D'=
+gray', Positive=3D'true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; co=
+lor: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E=
+8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-bl=
+ock; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18=
+px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Cou=
+rier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.=
+5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-ra=
+dius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!im=
+portant}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type=3D"text/css">#MathJax_Zoom {position: absolute; backgro=
+und-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: =
+.5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: =
+normal; text-align: left; text-indent: 0; text-transform: none; line-height=
+: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; =
+white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box=
+-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AA=
+AAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15=
+px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImage=
+Transform.Microsoft.dropshadow(OffX=3D2, OffY=3D2, Color=3D'gray', Positive=
+=3D'true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; di=
+splay: inline-block; width: 100%; height: 100%; border: 0; padding: 0; marg=
+in: 0; background-color: white; opacity: 0; filter: alpha(opacity=3D0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; w=
+idth: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; =
+display: inline-block; border: 0; padding: 0; margin: 0; background-color: =
+white; opacity: 0; filter: alpha(opacity=3D0)}
+</style></head>
+
+<body>
+<div id=3D"outer-container">
+    <div id=3D"top">
+<h1><a href=3D"https://embdev.net/"><trans oldtip=3D"EmbDev.net" newtip=3D"=
+EmbDev.net">EmbDev.net</trans></a></h1>
+
+<div id=3D"hamburger">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!--
+<div style=3D"position: absolute; top: 5px; right: 5px;">
+-->
+<!-- google code start -->
+<!--
+<form action=3D"http://www.google.com/cse" id=3D"cse-search-box" target=3D"=
+_blank">
+  <div>
+    <input type=3D"hidden" name=3D"cx" value=3D"partner-pub-120261220335848=
+9:40ebbehidjy" />
+    <input type=3D"hidden" name=3D"ie" value=3D"UTF-8" />
+    <input type=3D"text" name=3D"q" size=3D"24" />
+    <input type=3D"submit" name=3D"sa" value=3D"Search" />
+  </div>
+</form>
+<script type=3D"text/javascript" src=3D"//www.google.com/coop/cse/brand?for=
+m=3Dcse-search-box&amp;lang=3Den"></script>
+-->
+<!-- google code end -->
+<!-- </div> -->
+</div>
+
+
+  <table id=3D"twocolumns">
+  <tbody><tr><td id=3D"sidebar-left" class=3D"sidebar">
+ =20
+        <!-- begin nav -->
+<div class=3D"nav-container">
+  <ul class=3D"nav-first">
+    <!-- <li><b><a href=3D"/">Home</a></b></li> -->
+  <!--<li>
+    <b><a href=3D"/articles/">Articles</a></b>
+    <ul>
+      <li><a href=3D"http://EmbDev.net/forum/mikrocontroller-elektronik">AR=
+M MP3/AAC Player</a></li>
+     </ul>
+  </li>-->
+
+    <li>
+      <b><a href=3D"https://embdev.net/"><trans oldtip=3D"Forum" newtip=3D"=
+=E8=AE=BA=E5=9D=9B">Forum</trans></a></b>
+      <ul>
+        <li><a href=3D"https://embdev.net/forum/microcontrollers"><trans ol=
+dtip=3D"Microcontrollers" newtip=3D"=E5=BE=AE=E6=8E=A7=E5=88=B6=E5=99=A8">M=
+icrocontrollers</trans></a></li>
+        <li><a href=3D"https://embdev.net/forum/arm-gcc"><trans oldtip=3D"A=
+RM GCC" newtip=3D"=E8=87=82GCC">ARM GCC</trans></a></li>
+        <li><a href=3D"https://embdev.net/forum/fpga-vhdl-verilog"><trans o=
+ldtip=3D"FPGA &amp; VHDL" newtip=3D"FPGA=E5=92=8CVHDL">FPGA &amp; VHDL</tra=
+ns></a></li>
+        <li><a href=3D"https://embdev.net/forum/digital-signal-processing">=
+<trans oldtip=3D"DSP" newtip=3D"dsp">DSP</trans></a></li>
+        <li><a href=3D"https://embdev.net/forum/analog-circuits"><trans old=
+tip=3D"Analog circuits" newtip=3D"=E6=A8=A1=E6=8B=9F=E7=94=B5=E8=B7=AF">Ana=
+log circuits</trans></a></li>
+        <li><a href=3D"https://embdev.net/forum/pcb-design"><trans oldtip=
+=3D"PCB design" newtip=3D"PCB=E8=AE=BE=E8=AE=A1">PCB design</trans></a></li=
+>
+        <li><a href=3D"https://embdev.net/forum/embdev-net"><trans oldtip=
+=3D"Website" newtip=3D"=E7=BD=91=E7=AB=99">Website</trans></a></li>
+        <li><a href=3D"https://embdev.net/forum/off-topic"><trans oldtip=3D=
+"Off Topic" newtip=3D"=E7=A6=BB=E9=A2=98">Off Topic</trans></a></li>
+       </ul>
+    </li>
+    <li>
+      <b><a href=3D"https://embdev.net/articles/"><trans oldtip=3D"Articles=
+" newtip=3D"=E6=96=87=E7=AB=A0">Articles</trans></a></b>
+      <ul>
+        <li><a href=3D"https://embdev.net/articles/ARM"><trans oldtip=3D"AR=
+M" newtip=3D"=E6=89=8B=E8=87=82">ARM</trans></a></li>
+        <li><a href=3D"https://embdev.net/articles/ARM_MP3/AAC_Player"><tra=
+ns oldtip=3D"ARM MP3/AAC Player" newtip=3D"ARM MP3/AAC=E6=92=AD=E6=94=BE=E5=
+=99=A8">ARM MP3/AAC Player</trans></a></li>
+        <li><a href=3D"https://embdev.net/articles/Special:Recentchanges"><=
+trans oldtip=3D"Recent Changes" newtip=3D"=E6=9C=80=E8=BF=91=E7=9A=84=E5=8F=
+=98=E5=8C=96">Recent Changes</trans></a></li>
+      </ul>
+    </li>
+    <!--<li><b><a href=3D"http://shop.embdev.net/">Shop</a></b></li>-->
+  </ul>
+</div>
+<!-- end nav -->
+
+
+<div id=3D"adliste" class=3D"adtxt adunit bannerad"></div>
+<div id=3D"sdfj391"></div>
+
+<hr>
+<div id=3D"first-adframe" class=3D"adframe sticky" style=3D"padding: 0;marg=
+in:0; text-align: center; width:160px;">
+  <!-- <div style=3D"font-size: 0.65em;">- Advertisement -</div> -->
+  <!-- bannerstart -->
+    <div style=3D"padding: 0; text-align: center; width:160px;"><div class=
+=3D"ad" style=3D"min-width: 1px;" id=3D"div-gpt-ad-sydnrmki"></div></div>  =
+<!-- bannerend -->
+  </div>
+  <div style=3D"padding-top: 10px;"></div>
+
+
+  </td>
+  <td id=3D"main">
+
+<div id=3D"container">
+    <!-- contentDetection start -->=20
+    <!-- google_ad_section_start -->
+			<h1 id=3D"pageName" style=3D"float: left;"><small><a href=3D"https://emb=
+dev.net/forum/24"><trans oldtip=3D"Forum: FPGA, VHDL &amp; Verilog" newtip=
+=3D"=E8=AE=BA=E5=9D=9B=EF=BC=9AFPGA=E3=80=81VHDL=E5=92=8CVerilog">Forum: FP=
+GA, VHDL &amp; Verilog</trans></a></small><trans oldtip=3D" Flashing digits=
+ from 0 to 9" newtip=3D"=E5=B0=86=E6=95=B0=E5=AD=97=E4=BB=8E0=E9=97=AA=E7=
+=83=81=E5=88=B09"> Flashing digits from 0 to 9</trans></h1>
+
+
+  <br style=3D"clear: both;">
+ =20
+
+  <div id=3D"nav-top"><div class=3D"navbar">
+  <span class=3D"left">
+    <span class=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/f=
+orum"><trans oldtip=3D"Forum List" newtip=3D"=E8=AE=BA=E5=9D=9B=E5=90=8D=E5=
+=8D=95">Forum List</trans></a></span> <span class=3D"menuitem "><a class=3D=
+"nav" href=3D"https://embdev.net/forum/fpga-vhdl-verilog"><trans oldtip=3D"=
+Topic List" newtip=3D"=E4=B8=BB=E9=A2=98=E5=88=97=E8=A1=A8">Topic List</tra=
+ns></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"https://e=
+mbdev.net/topic/new?forum_id=3D24"><trans oldtip=3D"New Topic" newtip=3D"=
+=E6=96=B0=E8=AF=9D=E9=A2=98">New Topic</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/search"><trans oldtip=
+=3D"Search" newtip=3D"=E6=90=9C=E7=B4=A2">Search</trans></a></span> <span c=
+lass=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/user/registe=
+r"><trans oldtip=3D"Register" newtip=3D"=E5=AF=84=E5=AD=98=E5=99=A8">Regist=
+er</trans></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"ht=
+tps://embdev.net/user/list"><trans oldtip=3D"User List" newtip=3D"=E7=94=A8=
+=E6=88=B7=E5=88=97=E8=A1=A8">User List</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/user/login"><trans old=
+tip=3D"Log In" newtip=3D"=E7=99=BB=E5=BD=95">Log In</trans></a></span>
+  </span>
+ =20
+
+  <br class=3D"clear">
+</div>
+</div>
+  <div id=3D"content">
+    <div class=3D"forum">
+  <div class=3D"topic " id=3D"topic" data-id=3D"394849" data-user-id=3D"684=
+21">
+
+   =20
+   =20
+     =20
+
+     =20
+<div id=3D"4539869" class=3D"post box gainlayout  post-userid-68421 post-id=
+-4539869" data-attributionline=3D"Ber 2. wrote in post #4539869:" data-crea=
+ted-at=3D"1460279094000" data-updated-at=3D"1460279094000" data-user-id=3D"=
+68421" data-guest-name=3D"" data-score=3D"0">
+
+  <div class=3D"subject">
+    <a name=3D"4539869" href=3D"https://embdev.net/topic/394849#4539869"><t=
+rans oldtip=3D"Flashing digits from 0 to 9" newtip=3D"=E5=B0=86=E6=95=B0=E5=
+=AD=97=E4=BB=8E0=E9=97=AA=E7=83=81=E5=88=B09">Flashing digits from 0 to 9</=
+trans></a>
+  </div>
+
+  <div class=3D"info">
+	<table><tbody><tr><td>
+	</td>
+	<td>
+    <div class=3D"author"><trans oldtip=3D" Author: " newtip=3D"=E4=BD=9C=
+=E8=80=85=EF=BC=9A"> Author: </trans><span class=3D"name"><trans oldtip=3D"=
+ Ber 2. (" newtip=3D"=E8=B4=9D=E5=B0=942.("> Ber 2. (</trans><a href=3D"htt=
+ps://embdev.net/user/show/ber25"><trans oldtip=3D"ber25" newtip=3D"Br 25">b=
+er25</trans></a>)
+       =20
+     =20
+     =20
+
+
+      </span>
+    </div>
+
+    <div class=3D"date">
+      <span class=3D"created"><trans oldtip=3D"Posted on: " newtip=3D"=E5=
+=BC=A0=E8=B4=B4=E5=9C=A8=EF=BC=9A">Posted on: </trans><time class=3D"dateti=
+me" datetime=3D"2016-04-10T11:04:54+02:00">2016-04-10 11:04</time></span>
+    </div>
+</td></tr></tbody></table>
+
+ =20
+  </div>
+
+  <hr style=3D"clear: both;">
+
+  <div class=3D"post-vote-links noprint" style=3D"float:right; font-size: 1=
+0px;">
+  Rate this post
+  <table><tbody><tr>
+  <td><span class=3D"score">0</span></td>
+  <td>
+  <a class=3D"up" rel=3D"nofollow" data-remote=3D"true" href=3D"https://emb=
+dev.net/topic/vote_post?id=3D4539869&amp;rating=3D1"><span style=3D"font-si=
+ze: 150%;font-weight: bold;font-family:Arial;">=E2=96=B2</span><trans oldti=
+p=3D" useful" newtip=3D"=E6=9C=89=E7=94=A8"> useful</trans></a>
+  <br>
+  <a class=3D"down" rel=3D"nofollow" data-remote=3D"true" href=3D"https://e=
+mbdev.net/topic/vote_post?id=3D4539869&amp;rating=3D-1"><span style=3D"font=
+-size: 150%;font-weight: bold;font-family:Arial;">=E2=96=BC</span><trans ol=
+dtip=3D" not useful" newtip=3D"=E6=97=A0=E7=94=A8"> not useful</trans></a>
+  </td>
+  </tr></tbody></table>
+  </div>
+
+  <div class=3D"text gainlayout">
+      <pre>Hi , Can you help me to write the vhdl file for next delivery?
+
+Design and implement a circuit that successively flashes digits from 0=20
+to 9 on the 7-segment display HEX0. Each digit should be displayed for=20
+about one second. Use a counter to determine the one-second interval.=20
+The counter should be incremented by the 50 MHz clock signal provided on=20
+the DE2 board (CLOCK_50 input signal, to be managed as a clock input=20
+coming from the external world). Do not derive any other clock signals=20
+in your design; make sure that all the flipflops in your circuit are=20
+clocked directly by the 50 MHz clock signal.</pre>
+  </div>
+
+  <br style=3D"clear: both;">
+
+
+
+  <div class=3D"foot gainlayout unselectable">
+    <span class=3D"menuitem postmenuitem-report"><a href=3D"https://embdev.=
+net/topic/report_post/4539869" data-remote=3D"true" class=3D"nav" data-conf=
+irm=3D"Do you want to report this post to the administrator?" rel=3D"nofoll=
+ow"><trans oldtip=3D"Report post" newtip=3D"=E6=8A=A5=E5=91=8A=E5=8D=95">Re=
+port post</trans></a></span> <span class=3D"menuitem postmenuitem-edit"><a =
+href=3D"https://embdev.net/topic/394849?edit=3D4539869#postform" class=3D"n=
+av" rel=3D"nofollow"><trans oldtip=3D"Edit" newtip=3D"=E7=BC=96=E8=BE=91">E=
+dit</trans></a></span> <span class=3D"menuitem postmenuitem-move"><a class=
+=3D"nav" rel=3D"nofollow" href=3D"https://embdev.net/topic/move/394849"><tr=
+ans oldtip=3D"Move" newtip=3D"=E7=A7=BB=E5=8A=A8">Move</trans></a></span> <=
+span class=3D"menuitem postmenuitem-lock"><a class=3D"nav" rel=3D"nofollow"=
+ href=3D"https://embdev.net/topic/lock/394849?token=3DsDyGAoHCoNN1hjORp7tNm=
+sL3B2ppiOsCNnm9WCHrCTdqyt1PTcPr%2BO%2FXyOrsdtdLqDQeqPTqlQ5MqAoSh3PcIQ%3D%3D=
+"><trans oldtip=3D"Thread sperren" newtip=3D"=E8=9E=BA=E7=BA=B9=E7=B2=BE">T=
+hread sperren</trans></a></span> <span class=3D"menuitem postmenuitem-lock_=
+for_guests"><a class=3D"nav" rel=3D"nofollow" href=3D"https://embdev.net/to=
+pic/lock_for_guests/394849?token=3DsDyGAoHCoNN1hjORp7tNmsL3B2ppiOsCNnm9WCHr=
+CTdqyt1PTcPr%2BO%2FXyOrsdtdLqDQeqPTqlQ5MqAoSh3PcIQ%3D%3D"><trans oldtip=3D"=
+Anmeldepflicht aktivieren" newtip=3D"aktivieren Anmeldepflicht aktivieren">=
+Anmeldepflicht aktivieren</trans></a></span> <span class=3D"menuitem postme=
+nuitem-delete"><a class=3D"nav" data-prompt=3D"{&quot;message&quot;:&quot;E=
+nter a reason for the deletion, or cancel if you don't want to delete:&quot=
+;,&quot;param&quot;:&quot;reason&quot;,&quot;default&quot;:&quot; &quot;}" =
+data-remote=3D"true" rel=3D"nofollow" href=3D"https://embdev.net/topic/dele=
+te_post/4539869?token=3DsDyGAoHCoNN1hjORp7tNmsL3B2ppiOsCNnm9WCHrCTdqyt1PTcP=
+r%2BO%2FXyOrsdtdLqDQeqPTqlQ5MqAoSh3PcIQ%3D%3D"><trans oldtip=3D"Delete topi=
+c" newtip=3D"=E5=88=A0=E9=99=A4=E4=B8=BB=E9=A2=98">Delete topic</trans></a>=
+</span> <span class=3D"menuitem postmenuitem-merge"><a class=3D"nav" rel=3D=
+"nofollow" href=3D"https://embdev.net/topic/merge?source=3D394849&amp;token=
+=3DsDyGAoHCoNN1hjORp7tNmsL3B2ppiOsCNnm9WCHrCTdqyt1PTcPr%2BO%2FXyOrsdtdLqDQe=
+qPTqlQ5MqAoSh3PcIQ%3D%3D"><trans oldtip=3D"Thread mit anderem zusammenf=C3=
+=BChren" newtip=3D"=E7=BA=BF=E7=A8=8BMIT=E5=92=8Czusammenf=C3=BChren">Threa=
+d mit anderem zusammenf=C3=BChren</trans></a></span> <span class=3D"menuite=
+m"><a href=3D"https://embdev.net/topic/394849?reply_to=3D4539869#postform" =
+rel=3D"nofollow"><trans oldtip=3D"Quote selected text" newtip=3D"=E5=BC=95=
+=E6=96=87">Quote selected text</trans></a></span> <span class=3D"menuitem">=
+<a href=3D"https://embdev.net/topic/394849#postform" rel=3D"nofollow" class=
+=3D"nav"><trans oldtip=3D"Reply" newtip=3D"=E7=AD=94=E5=A4=8D">Reply</trans=
+></a></span> <span class=3D"menuitem postmenuitem-replyto"><a href=3D"https=
+://embdev.net/topic/394849?reply_to=3D4539869#postform" class=3D"nav" rel=
+=3D"nofollow"><trans oldtip=3D"Reply with quote" newtip=3D"=E7=AD=94=E5=A4=
+=8D=E5=B9=B6=E6=8A=A5=E4=BB=B7">Reply with quote</trans></a></span>
+  </div>
+
+</div>
+
+
+
+     =20
+
+     =20
+<div id=3D"4539973" class=3D"post box gainlayout  post-userid-8138 post-id-=
+4539973" data-attributionline=3D"Lothar M. wrote in post #4539973:" data-cr=
+eated-at=3D"1460285344000" data-updated-at=3D"1460285344000" data-user-id=
+=3D"8138" data-guest-name=3D"" data-score=3D"0">
+
+  <div class=3D"subject">
+    <a name=3D"4539973" href=3D"https://embdev.net/topic/394849#4539973"><t=
+rans oldtip=3D"Re: Flashing digits from 0 to 9" newtip=3D"Re=EF=BC=9A=E5=B0=
+=86=E6=95=B0=E5=AD=97=E4=BB=8E0=E9=97=AA=E7=83=81=E5=88=B09">Re: Flashing d=
+igits from 0 to 9</trans></a>
+  </div>
+
+  <div class=3D"info">
+	<table><tbody><tr><td>
+	</td>
+	<td>
+    <div class=3D"author"><trans oldtip=3D" Author: " newtip=3D"=E4=BD=9C=
+=E8=80=85=EF=BC=9A"> Author: </trans><span class=3D"name"><trans oldtip=3D"=
+ Lothar M. (" newtip=3D"=E6=B4=9B=E8=90=A8=C2=B7M."> Lothar M. (</trans><a =
+href=3D"https://embdev.net/user/show/lkmiller"><trans oldtip=3D"lkmiller" n=
+ewtip=3D"=E5=8B=92=E5=85=8B=E7=B1=B3=E5=8B=92">lkmiller</trans></a>)
+        (<strong><trans oldtip=3D"Moderator" newtip=3D"=E4=B8=BB=E6=8C=81=
+=E4=BA=BA">Moderator</trans></strong>)
+     =20
+     =20
+
+
+      </span>
+    </div>
+
+    <div class=3D"date">
+      <span class=3D"created"><trans oldtip=3D"Posted on: " newtip=3D"=E5=
+=BC=A0=E8=B4=B4=E5=9C=A8=EF=BC=9A">Posted on: </trans><time class=3D"dateti=
+me" datetime=3D"2016-04-10T12:49:04+02:00">2016-04-10 12:49</time></span>
+    </div>
+</td></tr></tbody></table>
+
+ =20
+  </div>
+
+  <hr style=3D"clear: both;">
+
+  <div class=3D"post-vote-links noprint" style=3D"float:right; font-size: 1=
+0px;">
+  Rate this post
+  <table><tbody><tr>
+  <td><span class=3D"score">0</span></td>
+  <td>
+  <a class=3D"up" rel=3D"nofollow" data-remote=3D"true" href=3D"https://emb=
+dev.net/topic/vote_post?id=3D4539973&amp;rating=3D1"><span style=3D"font-si=
+ze: 150%;font-weight: bold;font-family:Arial;">=E2=96=B2</span><trans oldti=
+p=3D" useful" newtip=3D"=E6=9C=89=E7=94=A8"> useful</trans></a>
+  <br>
+  <a class=3D"down" rel=3D"nofollow" data-remote=3D"true" href=3D"https://e=
+mbdev.net/topic/vote_post?id=3D4539973&amp;rating=3D-1"><span style=3D"font=
+-size: 150%;font-weight: bold;font-family:Arial;">=E2=96=BC</span><trans ol=
+dtip=3D" not useful" newtip=3D"=E6=97=A0=E7=94=A8"> not useful</trans></a>
+  </td>
+  </tr></tbody></table>
+  </div>
+
+  <div class=3D"text gainlayout">
+      <pre><span class=3D"attribution-line"><a class=3D"attribution-line" t=
+itle=3D"Hi , Can you help me to write the vhdl file for next delivery? Desi=
+gn and implement a circuit that successively flashes digits from 0 to 9 on =
+the 7-segment display HEX0. Each digit should be displayed for about one se=
+cond. Use a counter to determ" href=3D"https://embdev.net/topic/394849#4539=
+869">Ber 2. wrote:</a></span>
+<span class=3D"quoting-level-1">&gt; Can you help me to write the vhdl file=
+ for next delivery?</span>
+Show what you have, then maybe one will help you.
+But I don't think anyone is going to do <i>your</i> homework completely...<=
+/pre>
+  </div>
+
+  <br style=3D"clear: both;">
+
+
+
+  <div class=3D"foot gainlayout unselectable">
+    <span class=3D"menuitem postmenuitem-report"><a href=3D"https://embdev.=
+net/topic/report_post/4539973" data-remote=3D"true" class=3D"nav" data-conf=
+irm=3D"Do you want to report this post to the administrator?" rel=3D"nofoll=
+ow"><trans oldtip=3D"Report post" newtip=3D"=E6=8A=A5=E5=91=8A=E5=8D=95">Re=
+port post</trans></a></span> <span class=3D"menuitem postmenuitem-edit"><a =
+href=3D"https://embdev.net/topic/394849?edit=3D4539973#postform" class=3D"n=
+av" rel=3D"nofollow"><trans oldtip=3D"Edit" newtip=3D"=E7=BC=96=E8=BE=91">E=
+dit</trans></a></span> <span class=3D"menuitem postmenuitem-delete"><a clas=
+s=3D"nav" data-prompt=3D"{&quot;message&quot;:&quot;Enter a reason for the =
+deletion, or cancel if you don't want to delete:&quot;,&quot;param&quot;:&q=
+uot;reason&quot;,&quot;default&quot;:&quot; &quot;}" data-remote=3D"true" r=
+el=3D"nofollow" href=3D"https://embdev.net/topic/delete_post/4539973?token=
+=3Dp1SoVfZXM4qCsrFKf%2B76uRUQtp%2FuPwZZkdonMW5eEBh9ovMYOlZ4oRjjSjE0I2Bof9Ov=
+XXNdeFXrC5B7yMbFDg%3D%3D"><trans oldtip=3D"Delete" newtip=3D"=E5=88=A0=E9=
+=99=A4">Delete</trans></a></span> <span class=3D"menuitem"><a href=3D"https=
+://embdev.net/topic/394849?reply_to=3D4539973#postform" rel=3D"nofollow"><t=
+rans oldtip=3D"Quote selected text" newtip=3D"=E5=BC=95=E6=96=87">Quote sel=
+ected text</trans></a></span> <span class=3D"menuitem"><a href=3D"https://e=
+mbdev.net/topic/394849#postform" rel=3D"nofollow" class=3D"nav"><trans oldt=
+ip=3D"Reply" newtip=3D"=E7=AD=94=E5=A4=8D">Reply</trans></a></span> <span c=
+lass=3D"menuitem postmenuitem-replyto"><a href=3D"https://embdev.net/topic/=
+394849?reply_to=3D4539973#postform" class=3D"nav" rel=3D"nofollow"><trans o=
+ldtip=3D"Reply with quote" newtip=3D"=E7=AD=94=E5=A4=8D=E5=B9=B6=E6=8A=A5=
+=E4=BB=B7">Reply with quote</trans></a></span>
+  </div>
+
+</div>
+
+
+
+     =20
+
+     =20
+<div id=3D"4540025" class=3D"post box gainlayout  post-userid-68421 post-id=
+-4540025" data-attributionline=3D"Ber 2. wrote in post #4540025:" data-crea=
+ted-at=3D"1460287906000" data-updated-at=3D"1460348457000" data-user-id=3D"=
+68421" data-guest-name=3D"" data-score=3D"0">
+
+  <div class=3D"subject">
+    <a name=3D"4540025" href=3D"https://embdev.net/topic/394849#4540025"><t=
+rans oldtip=3D"Re: Flashing digits from 0 to 9" newtip=3D"Re=EF=BC=9A=E5=B0=
+=86=E6=95=B0=E5=AD=97=E4=BB=8E0=E9=97=AA=E7=83=81=E5=88=B09">Re: Flashing d=
+igits from 0 to 9</trans></a>
+  </div>
+
+  <div class=3D"info">
+	<table><tbody><tr><td>
+	</td>
+	<td>
+    <div class=3D"author"><trans oldtip=3D" Author: " newtip=3D"=E4=BD=9C=
+=E8=80=85=EF=BC=9A"> Author: </trans><span class=3D"name"><trans oldtip=3D"=
+ Ber 2. (" newtip=3D"=E8=B4=9D=E5=B0=942.("> Ber 2. (</trans><a href=3D"htt=
+ps://embdev.net/user/show/ber25"><trans oldtip=3D"ber25" newtip=3D"Br 25">b=
+er25</trans></a>)
+       =20
+     =20
+     =20
+
+
+      </span>
+    </div>
+
+    <div class=3D"date">
+      <span class=3D"created"><trans oldtip=3D"Posted on: " newtip=3D"=E5=
+=BC=A0=E8=B4=B4=E5=9C=A8=EF=BC=9A">Posted on: </trans><time class=3D"dateti=
+me" datetime=3D"2016-04-10T13:31:46+02:00">2016-04-10 13:31</time></span>
+    </div>
+</td></tr></tbody></table>
+
+ =20
+  </div>
+
+  <hr style=3D"clear: both;">
+
+  <div class=3D"post-vote-links noprint" style=3D"float:right; font-size: 1=
+0px;">
+  Rate this post
+  <table><tbody><tr>
+  <td><span class=3D"score">0</span></td>
+  <td>
+  <a class=3D"up" rel=3D"nofollow" data-remote=3D"true" href=3D"https://emb=
+dev.net/topic/vote_post?id=3D4540025&amp;rating=3D1"><span style=3D"font-si=
+ze: 150%;font-weight: bold;font-family:Arial;">=E2=96=B2</span><trans oldti=
+p=3D" useful" newtip=3D"=E6=9C=89=E7=94=A8"> useful</trans></a>
+  <br>
+  <a class=3D"down" rel=3D"nofollow" data-remote=3D"true" href=3D"https://e=
+mbdev.net/topic/vote_post?id=3D4540025&amp;rating=3D-1"><span style=3D"font=
+-size: 150%;font-weight: bold;font-family:Arial;">=E2=96=BC</span><trans ol=
+dtip=3D" not useful" newtip=3D"=E6=97=A0=E7=94=A8"> not useful</trans></a>
+  </td>
+  </tr></tbody></table>
+  </div>
+
+  <div class=3D"text gainlayout">
+      <pre><span class=3D"attribution-line"><a class=3D"attribution-line" t=
+itle=3D"Ber 2. wrote in post #4539869: > Can you help me to write the vhdl =
+file for next delivery? Show what you have, then maybe one will help you. B=
+ut I don't think anyone is going to do <i>your</i> homework completely..." =
+href=3D"https://embdev.net/topic/394849#4539973">Lothar M. wrote:</a></span=
+>
+<span class=3D"attribution-line">&gt; <a class=3D"attribution-line" title=
+=3D"Hi , Can you help me to write the vhdl file for next delivery? Design a=
+nd implement a circuit that successively flashes digits from 0 to 9 on the =
+7-segment display HEX0. Each digit should be displayed for about one second=
+. Use a counter to determ" href=3D"https://embdev.net/topic/394849#4539869"=
+>Ber 2. wrote:</a></span>
+<span class=3D"quoting-level-2">&gt;&gt; Can you help me to write the vhdl =
+file for next delivery?</span>
+<span class=3D"quoting-level-1">&gt; Show what you have, then maybe one wil=
+l help you.</span>
+<span class=3D"quoting-level-1">&gt; But I don't think anyone is going to d=
+o <i>your</i> homework completely...</span></pre><div class=3D"CodeRay"><di=
+v class=3D"code notranslate"><table><tbody><tr><td><div><pre><span style=3D=
+"color:#080;font-weight:bold">library</span> ieee;
+<span style=3D"color:#080;font-weight:bold">use</span> ieee.std_logic_1164.=
+<span style=3D"color:#080;font-weight:bold">all</span>;
+
+<span style=3D"color:#080;font-weight:bold">entity</span> flashing_LIGHTS <=
+span style=3D"color:#080;font-weight:bold">is</span>
+<span style=3D"color:#080;font-weight:bold">port</span> (  CLOCK_50, KEY0 :=
+ <span style=3D"color:#080;font-weight:bold">in</span> <span style=3D"color=
+:#074;font-weight:bold">std_logic</span>;
+    HEX0 : <span style=3D"color:#080;font-weight:bold">out</span> <span sty=
+le=3D"color:#074;font-weight:bold">std_logic_vector</span>(<span style=3D"c=
+olor:#00D;font-weight:bold">0</span> <span style=3D"color:#080;font-weight:=
+bold">to</span> <span style=3D"color:#00D;font-weight:bold">6</span>));
+<span style=3D"color:#080;font-weight:bold">end</span> flashing_LIGHTS;
+
+<span style=3D"color:#080;font-weight:bold">architecture</span> semi_behavi=
+oral <span style=3D"color:#080;font-weight:bold">of</span> flashing_LIGHTS =
+<span style=3D"color:#080;font-weight:bold">is</span>
+
+<span style=3D"color:#080;font-weight:bold">component</span> counter_4bit <=
+span style=3D"color:#080;font-weight:bold">is</span>
+<span style=3D"color:#080;font-weight:bold">port</span>( =20
+               enable,clk,clear:<span style=3D"color:#080;font-weight:bold"=
+>in</span> <span style=3D"color:#074;font-weight:bold">std_logic</span>;
+    Q: <span style=3D"color:#080;font-weight:bold">buffer</span> <span styl=
+e=3D"color:#074;font-weight:bold">std_logic_vector</span>(<span style=3D"co=
+lor:#00D;font-weight:bold">3</span> <span style=3D"color:#080;font-weight:b=
+old">downto</span> <span style=3D"color:#00D;font-weight:bold">0</span>));
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">component</span>;
+
+<span style=3D"color:#080;font-weight:bold">component</span> segment_7_deco=
+der <span style=3D"color:#080;font-weight:bold">is</span>
+<span style=3D"color:#080;font-weight:bold">PORT</span> (a :<span style=3D"=
+color:#080;font-weight:bold">IN</span>  <span style=3D"color:#074;font-weig=
+ht:bold">STD_LOGIC_VECTOR</span>(<span style=3D"color:#00D;font-weight:bold=
+">3</span> <span style=3D"color:#080;font-weight:bold">DOWNTO</span> <span =
+style=3D"color:#00D;font-weight:bold">0</span>);
+      B :<span style=3D"color:#080;font-weight:bold">OUT</span> <span style=
+=3D"color:#074;font-weight:bold">STD_LOGIC_VECTOR</span>(<span style=3D"col=
+or:#00D;font-weight:bold">0</span> <span style=3D"color:#080;font-weight:bo=
+ld">TO</span> <span style=3D"color:#00D;font-weight:bold">6</span>));
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">component</span>;
+
+<span style=3D"color:#080;font-weight:bold">signal</span> count_enable, clo=
+ck, reset : <span style=3D"color:#074;font-weight:bold">std_logic</span>;
+<span style=3D"color:#080;font-weight:bold">signal</span> count : <span sty=
+le=3D"color:#074;font-weight:bold">std_logic_vector</span>(<span style=3D"c=
+olor:#00D;font-weight:bold">3</span> <span style=3D"color:#080;font-weight:=
+bold">downto</span> <span style=3D"color:#00D;font-weight:bold">0</span>);
+
+<span style=3D"color:#080;font-weight:bold">begin</span>
+
+clock&lt;=3DCLOCK_50;
+reset &lt;=3D KEY0;
+
+clock_counter: <span style=3D"color:#080;font-weight:bold">process</span> (=
+clock, reset)
+<span style=3D"color:#080;font-weight:bold">variable</span> count : <span s=
+tyle=3D"color:#074;font-weight:bold">integer</span> <span style=3D"color:#0=
+80;font-weight:bold">range</span> <span style=3D"color:#00D;font-weight:bol=
+d">0</span> <span style=3D"color:#080;font-weight:bold">to</span> <span sty=
+le=3D"color:#00D;font-weight:bold">49999999</span>;
+<span style=3D"color:#080;font-weight:bold">begin</span>
+<span style=3D"color:#080;font-weight:bold">if</span> reset =3D <span style=
+=3D"color:#04D">'1'</span> <span style=3D"color:#080;font-weight:bold">then=
+</span>
+count :=3D <span style=3D"color:#00D;font-weight:bold">0</span>;
+count_enable&lt;=3D<span style=3D"color:#04D">'0'</span>;
+<span style=3D"color:#080;font-weight:bold">elsif</span> clock<span style=
+=3D"color:#04D">'e</span>vent <span style=3D"color:#080;font-weight:bold">a=
+nd</span> clock=3D<span style=3D"color:#04D">'1'</span> <span style=3D"colo=
+r:#080;font-weight:bold">then</span>
+  <span style=3D"color:#080;font-weight:bold">if</span> count =3D <span sty=
+le=3D"color:#00D;font-weight:bold">49999999</span> <span style=3D"color:#08=
+0;font-weight:bold">then</span>
+  count_enable&lt;=3D<span style=3D"color:#04D">'1'</span>;
+  count:=3D<span style=3D"color:#00D;font-weight:bold">0</span>;
+  <span style=3D"color:#080;font-weight:bold">else</span>
+  count :=3D count+<span style=3D"color:#00D;font-weight:bold">1</span>;
+  count_enable&lt;=3D<span style=3D"color:#04D">'0'</span>;
+  <span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"col=
+or:#080;font-weight:bold">if</span>;
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">if</span>;
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">process</span>;
+
+counter: counter_4bit <span style=3D"color:#080;font-weight:bold">port</spa=
+n> <span style=3D"color:#080;font-weight:bold">map</span>
+(count_enable, clock, reset <span style=3D"color:#080;font-weight:bold">or<=
+/span> (count(<span style=3D"color:#00D;font-weight:bold">3</span>) <span s=
+tyle=3D"color:#080;font-weight:bold">and</span> count(<span style=3D"color:=
+#00D;font-weight:bold">0</span>)), count);
+
+RAPP: segment_7_decoder <span style=3D"color:#080;font-weight:bold">port</s=
+pan> <span style=3D"color:#080;font-weight:bold">map</span>(count, HEX0);
+<span style=3D"color:#080;font-weight:bold">end</span> semi_behavioral;
+</pre></div></td></tr></tbody></table></div></div>
+  </div>
+
+  <br style=3D"clear: both;">
+
+
+  <div class=3D"logged_actions">
+  <div><time class=3D"datetime" datetime=3D"2016-04-11T06:20:57+02:00">2016=
+-04-11 06:20</time><trans oldtip=3D": Edited by Moderator " newtip=3D"*=E4=
+=B8=BB=E6=8C=81=E4=BA=BA=E7=BC=96=E8=BE=91">: Edited by Moderator </trans><=
+/div>
+  </div>
+
+  <div class=3D"foot gainlayout unselectable">
+    <span class=3D"menuitem postmenuitem-report"><a href=3D"https://embdev.=
+net/topic/report_post/4540025" data-remote=3D"true" class=3D"nav" data-conf=
+irm=3D"Do you want to report this post to the administrator?" rel=3D"nofoll=
+ow"><trans oldtip=3D"Report post" newtip=3D"=E6=8A=A5=E5=91=8A=E5=8D=95">Re=
+port post</trans></a></span> <span class=3D"menuitem postmenuitem-edit"><a =
+href=3D"https://embdev.net/topic/394849?edit=3D4540025#postform" class=3D"n=
+av" rel=3D"nofollow"><trans oldtip=3D"Edit" newtip=3D"=E7=BC=96=E8=BE=91">E=
+dit</trans></a></span> <span class=3D"menuitem postmenuitem-delete"><a clas=
+s=3D"nav" data-prompt=3D"{&quot;message&quot;:&quot;Enter a reason for the =
+deletion, or cancel if you don't want to delete:&quot;,&quot;param&quot;:&q=
+uot;reason&quot;,&quot;default&quot;:&quot; &quot;}" data-remote=3D"true" r=
+el=3D"nofollow" href=3D"https://embdev.net/topic/delete_post/4540025?token=
+=3D3Y8peiBxAtxxHYcAV99dcxRbHIBCabqHjCe3HppVah4HeXI37HBJ9%2BtMfHscEseifpgFQt=
+8LxIv29gBUPM2%2FCA%3D%3D"><trans oldtip=3D"Delete" newtip=3D"=E5=88=A0=E9=
+=99=A4">Delete</trans></a></span> <span class=3D"menuitem"><a href=3D"https=
+://embdev.net/topic/394849?reply_to=3D4540025#postform" rel=3D"nofollow"><t=
+rans oldtip=3D"Quote selected text" newtip=3D"=E5=BC=95=E6=96=87">Quote sel=
+ected text</trans></a></span> <span class=3D"menuitem"><a href=3D"https://e=
+mbdev.net/topic/394849#postform" rel=3D"nofollow" class=3D"nav"><trans oldt=
+ip=3D"Reply" newtip=3D"=E7=AD=94=E5=A4=8D">Reply</trans></a></span> <span c=
+lass=3D"menuitem postmenuitem-replyto"><a href=3D"https://embdev.net/topic/=
+394849?reply_to=3D4540025#postform" class=3D"nav" rel=3D"nofollow"><trans o=
+ldtip=3D"Reply with quote" newtip=3D"=E7=AD=94=E5=A4=8D=E5=B9=B6=E6=8A=A5=
+=E4=BB=B7">Reply with quote</trans></a></span>
+  </div>
+
+</div>
+
+
+
+     =20
+
+     =20
+<div id=3D"4540844" class=3D"post box gainlayout  post-userid-8138 post-id-=
+4540844" data-attributionline=3D"Lothar M. wrote in post #4540844:" data-cr=
+eated-at=3D"1460349145000" data-updated-at=3D"1460357683000" data-user-id=
+=3D"8138" data-guest-name=3D"" data-score=3D"0">
+
+  <div class=3D"subject">
+    <a name=3D"4540844" href=3D"https://embdev.net/topic/394849#4540844"><t=
+rans oldtip=3D"Re: Flashing digits from 0 to 9" newtip=3D"Re=EF=BC=9A=E5=B0=
+=86=E6=95=B0=E5=AD=97=E4=BB=8E0=E9=97=AA=E7=83=81=E5=88=B09">Re: Flashing d=
+igits from 0 to 9</trans></a>
+  </div>
+
+  <div class=3D"info">
+	<table><tbody><tr><td>
+	</td>
+	<td>
+    <div class=3D"author"><trans oldtip=3D" Author: " newtip=3D"=E4=BD=9C=
+=E8=80=85=EF=BC=9A"> Author: </trans><span class=3D"name"><trans oldtip=3D"=
+ Lothar M. (" newtip=3D"=E6=B4=9B=E8=90=A8=C2=B7M."> Lothar M. (</trans><a =
+href=3D"https://embdev.net/user/show/lkmiller"><trans oldtip=3D"lkmiller" n=
+ewtip=3D"=E5=8B=92=E5=85=8B=E7=B1=B3=E5=8B=92">lkmiller</trans></a>)
+        (<strong><trans oldtip=3D"Moderator" newtip=3D"=E4=B8=BB=E6=8C=81=
+=E4=BA=BA">Moderator</trans></strong>)
+     =20
+     =20
+
+
+      </span>
+    </div>
+
+    <div class=3D"date">
+      <span class=3D"created"><trans oldtip=3D"Posted on: " newtip=3D"=E5=
+=BC=A0=E8=B4=B4=E5=9C=A8=EF=BC=9A">Posted on: </trans><time class=3D"dateti=
+me" datetime=3D"2016-04-11T06:32:25+02:00">2016-04-11 06:32</time></span>
+    </div>
+</td></tr></tbody></table>
+
+ =20
+  </div>
+
+  <hr style=3D"clear: both;">
+
+  <div class=3D"post-vote-links noprint" style=3D"float:right; font-size: 1=
+0px;">
+  Rate this post
+  <table><tbody><tr>
+  <td><span class=3D"score">0</span></td>
+  <td>
+  <a class=3D"up" rel=3D"nofollow" data-remote=3D"true" href=3D"https://emb=
+dev.net/topic/vote_post?id=3D4540844&amp;rating=3D1"><span style=3D"font-si=
+ze: 150%;font-weight: bold;font-family:Arial;">=E2=96=B2</span><trans oldti=
+p=3D" useful" newtip=3D"=E6=9C=89=E7=94=A8"> useful</trans></a>
+  <br>
+  <a class=3D"down" rel=3D"nofollow" data-remote=3D"true" href=3D"https://e=
+mbdev.net/topic/vote_post?id=3D4540844&amp;rating=3D-1"><span style=3D"font=
+-size: 150%;font-weight: bold;font-family:Arial;">=E2=96=BC</span><trans ol=
+dtip=3D" not useful" newtip=3D"=E6=97=A0=E7=94=A8"> not useful</trans></a>
+  </td>
+  </tr></tbody></table>
+  </div>
+
+  <div class=3D"text gainlayout">
+      <pre><span class=3D"attribution-line"><a class=3D"attribution-line" t=
+itle=3D"Ber 2. wrote in post #4539869: > Can you help me to write the vhdl =
+file for next delivery? Show what you have, then maybe one will help you. B=
+ut I don't think anyone is going to do <i>your</i> homework completely..." =
+href=3D"https://embdev.net/topic/394849#4539973">Lothar M. wrote:</a></span=
+>
+<span class=3D"quoting-level-1">&gt; Show what you have</span>
+Why not implementing the 4 bit counter simplay as a counter from 0 to 9=20
+in the flashing_LIGHTS entity?</pre><div class=3D"CodeRay"><div class=3D"co=
+de notranslate"><table><tbody><tr><td><div><pre><span style=3D"color:#080;f=
+ont-weight:bold">library</span> ieee;
+<span style=3D"color:#080;font-weight:bold">use</span> ieee.std_logic_1164.=
+<span style=3D"color:#080;font-weight:bold">all</span>;
+
+<span style=3D"color:#080;font-weight:bold">entity</span> flashing_LIGHTS <=
+span style=3D"color:#080;font-weight:bold">is</span>
+<span style=3D"color:#080;font-weight:bold">port</span> (  CLOCK_50, KEY0 :=
+ <span style=3D"color:#080;font-weight:bold">in</span> <span style=3D"color=
+:#074;font-weight:bold">std_logic</span>;
+        HEX0 : <span style=3D"color:#080;font-weight:bold">out</span> <span=
+ style=3D"color:#074;font-weight:bold">std_logic_vector</span>(<span style=
+=3D"color:#00D;font-weight:bold">0</span> <span style=3D"color:#080;font-we=
+ight:bold">to</span> <span style=3D"color:#00D;font-weight:bold">6</span>))=
+;
+<span style=3D"color:#080;font-weight:bold">end</span> flashing_LIGHTS;
+
+<span style=3D"color:#080;font-weight:bold">architecture</span> semi_behavi=
+oral <span style=3D"color:#080;font-weight:bold">of</span> flashing_LIGHTS =
+<span style=3D"color:#080;font-weight:bold">is</span>
+
+<span style=3D"color:#080;font-weight:bold">signal</span> count : <span sty=
+le=3D"color:#074;font-weight:bold">integer</span> <span style=3D"color:#080=
+;font-weight:bold">range</span> <span style=3D"color:#00D;font-weight:bold"=
+>0</span> <span style=3D"color:#080;font-weight:bold">to</span> <span style=
+=3D"color:#00D;font-weight:bold">9</span> :=3D <span style=3D"color:#00D;fo=
+nt-weight:bold">0</span>;
+<span style=3D"color:#080;font-weight:bold">signal</span> countsec : <span =
+style=3D"color:#074;font-weight:bold">integer</span> <span style=3D"color:#=
+080;font-weight:bold">range</span> <span style=3D"color:#00D;font-weight:bo=
+ld">0</span> <span style=3D"color:#080;font-weight:bold">to</span> <span st=
+yle=3D"color:#00D;font-weight:bold">49999999</span> :=3D <span style=3D"col=
+or:#00D;font-weight:bold">0</span>;
+
+<span style=3D"color:#080;font-weight:bold">begin</span>
+
+clock&lt;=3DCLOCK_50;
+reset &lt;=3D KEY0;
+
+clock_counter: <span style=3D"color:#080;font-weight:bold">process</span> (=
+CLOCK_50, reset)
+<span style=3D"color:#080;font-weight:bold">begin</span>
+<span style=3D"color:#080;font-weight:bold">if</span> reset =3D <span style=
+=3D"color:#04D">'1'</span> <span style=3D"color:#080;font-weight:bold">then=
+</span>
+  count_enable&lt;=3D<span style=3D"color:#04D">'0'</span>;
+<span style=3D"color:#080;font-weight:bold">elsif</span> clock<span style=
+=3D"color:#04D">'e</span>vent <span style=3D"color:#080;font-weight:bold">a=
+nd</span> clock=3D<span style=3D"color:#04D">'1'</span> <span style=3D"colo=
+r:#080;font-weight:bold">then</span>
+  <span style=3D"color:#080;font-weight:bold">if</span> countsec =3D <span =
+style=3D"color:#00D;font-weight:bold">49999999</span> <span style=3D"color:=
+#080;font-weight:bold">then</span> <span style=3D"color:#888">-- one second=
+ is gone</span>
+    countsec &lt;=3D <span style=3D"color:#00D;font-weight:bold">0</span>;
+    <span style=3D"color:#080;font-weight:bold">if</span> count&lt;<span st=
+yle=3D"color:#00D;font-weight:bold">9</span> <span style=3D"color:#080;font=
+-weight:bold">then</span> <span style=3D"color:#888">-- each second: increm=
+ent the digit counter</span>
+      count &lt;=3D count+<span style=3D"color:#00D;font-weight:bold">1</sp=
+an>;
+    <span style=3D"color:#080;font-weight:bold">else</span>
+      count &lt;=3D <span style=3D"color:#00D;font-weight:bold">0</span>;
+    <span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"c=
+olor:#080;font-weight:bold">if</span>;
+  <span style=3D"color:#080;font-weight:bold">else</span>
+    countsec &lt;=3D count+<span style=3D"color:#00D;font-weight:bold">1</s=
+pan>;
+  <span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"col=
+or:#080;font-weight:bold">if</span>;
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">if</span>;
+<span style=3D"color:#080;font-weight:bold">end</span> <span style=3D"color=
+:#080;font-weight:bold">process</span>;
+
+HEX0 &lt;=3D <span style=3D"background-color:#fff0f0;color:#D20"><span styl=
+e=3D"color:#710">"</span><span style=3D"">1111110</span><span style=3D"colo=
+r:#710">"</span></span> <span style=3D"color:#080;font-weight:bold">when</s=
+pan> count=3D<span style=3D"color:#00D;font-weight:bold">0</span>  <span st=
+yle=3D"color:#080;font-weight:bold">else</span>
+        <span style=3D"background-color:#fff0f0;color:#D20"><span style=3D"=
+color:#710">"</span><span style=3D"">0110000</span><span style=3D"color:#71=
+0">"</span></span> <span style=3D"color:#080;font-weight:bold">when</span> =
+count=3D<span style=3D"color:#00D;font-weight:bold">1</span>  <span style=
+=3D"color:#080;font-weight:bold">else</span>
+        ...
+        <span style=3D"background-color:#fff0f0;color:#D20"><span style=3D"=
+color:#710">"</span><span style=3D"">1111111</span><span style=3D"color:#71=
+0">"</span></span> <span style=3D"color:#080;font-weight:bold">when</span> =
+count=3D<span style=3D"color:#00D;font-weight:bold">8</span>  <span style=
+=3D"color:#080;font-weight:bold">else</span>
+        <span style=3D"background-color:#fff0f0;color:#D20"><span style=3D"=
+color:#710">"</span><span style=3D"">1110011</span><span style=3D"color:#71=
+0">"</span></span>; <span style=3D"color:#888">--  count=3D9</span>
+
+<span style=3D"color:#080;font-weight:bold">end</span> semi_behavioral;
+</pre></div></td></tr></tbody></table></div></div><pre>If you <i>must</i> u=
+se those 2 components counter_4bit and segment_7_decoder,=20
+then you will have to rip out the corresponding lines of code and put=20
+them in their own entities...
+
+
+BTW:
+Have a look at the few lines above the reply edit box:</pre><div class=3D"C=
+odeRay"><div class=3D"code notranslate"><table><tbody><tr><td><div><pre>Rep=
+ly
+Rules =E2=80=94 please read before posting
+    Post long source code as attachment, not in the text
+    ...
+Formatting options
+    ...
+    [vhdl]VHDL code[/vhdl]
+    ...
+</pre></div></td></tr></tbody></table></div></div><pre>So pls attach VHDL c=
+ode as *.vhdl file or use the [vhdl] tokens further=20
+on.</pre>
+  </div>
+
+  <br style=3D"clear: both;">
+
+
+  <div class=3D"logged_actions">
+  <div><time class=3D"datetime" datetime=3D"2016-04-11T08:54:43+02:00">2016=
+-04-11 08:54</time><trans oldtip=3D": Edited by Moderator " newtip=3D"*=E4=
+=B8=BB=E6=8C=81=E4=BA=BA=E7=BC=96=E8=BE=91">: Edited by Moderator </trans><=
+/div>
+  </div>
+
+  <div class=3D"foot gainlayout unselectable">
+    <span class=3D"menuitem postmenuitem-report"><a href=3D"https://embdev.=
+net/topic/report_post/4540844" data-remote=3D"true" class=3D"nav" data-conf=
+irm=3D"Do you want to report this post to the administrator?" rel=3D"nofoll=
+ow"><trans oldtip=3D"Report post" newtip=3D"=E6=8A=A5=E5=91=8A=E5=8D=95">Re=
+port post</trans></a></span> <span class=3D"menuitem postmenuitem-edit"><a =
+href=3D"https://embdev.net/topic/394849?edit=3D4540844#postform" class=3D"n=
+av" rel=3D"nofollow"><trans oldtip=3D"Edit" newtip=3D"=E7=BC=96=E8=BE=91">E=
+dit</trans></a></span> <span class=3D"menuitem postmenuitem-delete"><a clas=
+s=3D"nav" data-prompt=3D"{&quot;message&quot;:&quot;Enter a reason for the =
+deletion, or cancel if you don't want to delete:&quot;,&quot;param&quot;:&q=
+uot;reason&quot;,&quot;default&quot;:&quot; &quot;}" data-remote=3D"true" r=
+el=3D"nofollow" href=3D"https://embdev.net/topic/delete_post/4540844?token=
+=3D%2F%2FSO22cNjXe5JxzIGdTB9rvS2Rz88SgLB0EXZHCwELolAtWWqwzGXCN257NSGVsn0RHA=
+3mGTVgd9kKAu1ijFrA%3D%3D"><trans oldtip=3D"Delete" newtip=3D"=E5=88=A0=E9=
+=99=A4">Delete</trans></a></span> <span class=3D"menuitem"><a href=3D"https=
+://embdev.net/topic/394849?reply_to=3D4540844#postform" rel=3D"nofollow"><t=
+rans oldtip=3D"Quote selected text" newtip=3D"=E5=BC=95=E6=96=87">Quote sel=
+ected text</trans></a></span> <span class=3D"menuitem"><a href=3D"https://e=
+mbdev.net/topic/394849#postform" rel=3D"nofollow" class=3D"nav"><trans oldt=
+ip=3D"Reply" newtip=3D"=E7=AD=94=E5=A4=8D">Reply</trans></a></span> <span c=
+lass=3D"menuitem postmenuitem-replyto"><a href=3D"https://embdev.net/topic/=
+394849?reply_to=3D4540844#postform" class=3D"nav" rel=3D"nofollow"><trans o=
+ldtip=3D"Reply with quote" newtip=3D"=E7=AD=94=E5=A4=8D=E5=B9=B6=E6=8A=A5=
+=E4=BB=B7">Reply with quote</trans></a></span>
+  </div>
+
+</div>
+
+
+
+
+    <div id=3D"nav-middle"><div class=3D"navbar">
+  <span class=3D"left">
+    <span class=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/f=
+orum"><trans oldtip=3D"Forum List" newtip=3D"=E8=AE=BA=E5=9D=9B=E5=90=8D=E5=
+=8D=95">Forum List</trans></a></span> <span class=3D"menuitem "><a class=3D=
+"nav" href=3D"https://embdev.net/forum/fpga-vhdl-verilog"><trans oldtip=3D"=
+Topic List" newtip=3D"=E4=B8=BB=E9=A2=98=E5=88=97=E8=A1=A8">Topic List</tra=
+ns></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"https://e=
+mbdev.net/topic/new?forum_id=3D24"><trans oldtip=3D"New Topic" newtip=3D"=
+=E6=96=B0=E8=AF=9D=E9=A2=98">New Topic</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/search"><trans oldtip=
+=3D"Search" newtip=3D"=E6=90=9C=E7=B4=A2">Search</trans></a></span> <span c=
+lass=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/user/registe=
+r"><trans oldtip=3D"Register" newtip=3D"=E5=AF=84=E5=AD=98=E5=99=A8">Regist=
+er</trans></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"ht=
+tps://embdev.net/user/list"><trans oldtip=3D"User List" newtip=3D"=E7=94=A8=
+=E6=88=B7=E5=88=97=E8=A1=A8">User List</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/user/login"><trans old=
+tip=3D"Log In" newtip=3D"=E7=99=BB=E5=BD=95">Log In</trans></a></span>
+  </span>
+ =20
+
+  <br class=3D"clear">
+</div>
+</div>
+
+    <div class=3D"topic-subscription noprint">
+      <a href=3D"https://embdev.net/topic/subscribe/394849"><img src=3D"htt=
+ps://embdev.net/images/icons/email_add.png" alt=3D""><trans oldtip=3D" Watc=
+h this topic" newtip=3D"=E7=9C=8B=E8=BF=99=E4=B8=AA=E8=AF=9D=E9=A2=98"> Wat=
+ch this topic</trans></a>
+
+      |
+        <a href=3D"https://embdev.net/user/disable_post_pagination"><img sr=
+c=3D"https://embdev.net/images/icons/page_white_stack.png" alt=3D""><trans =
+oldtip=3D" Disable multi-page view" newtip=3D"=E7=A6=81=E7=94=A8=E5=A4=9A=
+=E9=A1=B5=E8=A7=86=E5=9B=BE"> Disable multi-page view</trans></a>
+
+    </div>
+        <a name=3D"postform"></a>
+
+
+<div class=3D"noprint">
+<div class=3D"postform box" style=3D"float:left;">
+ =20
+  <h3><trans oldtip=3D"Reply" newtip=3D"=E7=AD=94=E5=A4=8D">Reply</trans></=
+h3>
+ =20
+  <div class=3D"postform-info"><trans oldtip=3D" Entering an e-mail address=
+ is optional. If you want to receive reply notifications by e-mail, please =
+" newtip=3D"=E8=BE=93=E5=85=A5=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E5=9C=B0=
+=E5=9D=80=E6=98=AF=E5=8F=AF=E9=80=89=E7=9A=84.=E5=A6=82=E6=9E=9C=E6=82=A8=
+=E6=83=B3=E9=80=9A=E8=BF=87=E7=94=B5=E5=AD=90=E9=82=AE=E4=BB=B6=E6=94=B6=E5=
+=88=B0=E5=9B=9E=E5=A4=8D=E9=80=9A=E7=9F=A5=EF=BC=8C=E8=AF=B7"> Entering an =
+e-mail address is optional. If you want to receive reply notifications by e=
+-mail, please </trans><a href=3D"https://embdev.net/user/login"><trans oldt=
+ip=3D"log in" newtip=3D"=E7=99=BB=E5=BD=95">log in</trans></a>.
+  </div>
+  <!-- <hr /> -->
+=20
+<div class=3D"postform-rules">
+
+<h3><trans oldtip=3D"Rules =E2=80=94 please read before posting" newtip=3D"=
+=E8=A7=84=E5=88=99-=E5=BC=A0=E8=B4=B4=E5=89=8D=E8=AF=B7=E9=98=85=E8=AF=BB">=
+Rules =E2=80=94 please read before posting</trans></h3>
+<ul>
+<li><trans oldtip=3D"Post long source code as attachment, not in the text" =
+newtip=3D"=E5=B0=86=E9=95=BF=E6=BA=90=E4=BB=A3=E7=A0=81=E4=BD=9C=E4=B8=BA=
+=E9=99=84=E4=BB=B6=E5=8F=91=E5=B8=83=EF=BC=8C=E8=80=8C=E4=B8=8D=E6=98=AF=E5=
+=9C=A8=E6=96=87=E6=9C=AC=E4=B8=AD=E3=80=82">Post long source code as attach=
+ment, not in the text</trans></li>
+<li><trans oldtip=3D"Posting advertisements is forbidden." newtip=3D"=E7=A6=
+=81=E6=AD=A2=E5=BC=A0=E8=B4=B4=E5=B9=BF=E5=91=8A=E3=80=82">Posting advertis=
+ements is forbidden.</trans></li>
+</ul>
+
+<h3><trans oldtip=3D"Formatting options" newtip=3D"=E6=A0=BC=E5=BC=8F=E5=8C=
+=96=E9=80=89=E9=A1=B9">Formatting options</trans></h3>
+<ul>
+<li><trans oldtip=3D"[c]C code[/c]" newtip=3D"C=E4=BB=A3=E7=A0=81[/c]">[c]C=
+ code[/c]</trans></li>
+<li><trans oldtip=3D"[avrasm]AVR assembler code[/avrasm]" newtip=3D"AVR=E6=
+=B1=87=E7=BC=96=E7=A8=8B=E5=BA=8F=E4=BB=A3=E7=A0=81[/avrasm]">[avrasm]AVR a=
+ssembler code[/avrasm]</trans></li>
+  <li><trans oldtip=3D"[vhdl]VHDL code[/vhdl]" newtip=3D"[VHDL]VHDL=E4=BB=
+=A3=E7=A0=81[/VHDL]">[vhdl]VHDL code[/vhdl]</trans></li>
+<li><trans oldtip=3D"[code]code in other languages, ASCII drawings[/code]" =
+newtip=3D"[=E4=BB=A3=E7=A0=81]=E5=85=B6=E4=BB=96=E8=AF=AD=E8=A8=80=E4=BB=A3=
+=E7=A0=81=EF=BC=8CASCII=E7=BB=98=E5=9B=BE[/=E4=BB=A3=E7=A0=81]">[code]code =
+in other languages, ASCII drawings[/code]</trans></li>
+<li><trans oldtip=3D"[math]formula (LaTeX syntax)[/math]" newtip=3D"[=E6=95=
+=B0=E5=AD=A6]=E5=85=AC=E5=BC=8F(=E4=B9=B3=E8=83=B6=E8=AF=AD=E6=B3=95)[/=E6=
+=95=B0=E5=AD=A6]">[math]formula (LaTeX syntax)[/math]</trans></li>
+</ul>
+
+</div>
+
+
+  <form id=3D"postform" enctype=3D"multipart/form-data" action=3D"https://e=
+mbdev.net/topic/394849#postform" accept-charset=3D"UTF-8" method=3D"post">
+
+   =20
+    <input type=3D"text" name=3D"title" value=3D"" style=3D"display: none">
+     =20
+
+   =20
+   =20
+   =20
+
+    <table>
+
+
+                <tbody><tr class=3D"two_columns">
+          <td class=3D"prompt"><label for=3D"form_post_guest_name"><b><tran=
+s oldtip=3D"Name" newtip=3D"=E5=90=8D=E5=AD=97=EF=BC=8C=E5=A7=93=E5=90=8D">=
+Name</trans></b>:</label></td>
+          <td class=3D"value"><input size=3D"30" maxlength=3D"50" class=3D"=
+two_columns" required=3D"required" id=3D"form_post_guest_name" type=3D"text=
+" name=3D"post[guest_name]"><br></td>
+        </tr>
+
+                <tr class=3D"two_columns">
+          <td class=3D"prompt"><label for=3D"form_post_guest_email"><trans =
+oldtip=3D"E-mail address (not visible):" newtip=3D"=E7=94=B5=E5=AD=90=E9=82=
+=AE=E4=BB=B6=E5=9C=B0=E5=9D=80(=E4=B8=8D=E5=8F=AF=E8=A7=81)=EF=BC=9A">E-mai=
+l address (not visible):</trans></label></td>
+          <td class=3D"value"><input size=3D"30" maxlength=3D"50" class=3D"=
+two_columns" id=3D"form_post_guest_email" type=3D"email" name=3D"post[guest=
+_email]"><br></td>
+        </tr>
+
+
+
+              <tr class=3D"two_columns">
+          <td class=3D"prompt"><label for=3D"form_post_subject"><b><trans o=
+ldtip=3D"Subject" newtip=3D"=E5=AD=A6=E7=A7=91">Subject</trans></b>:</label=
+></td>
+          <td class=3D"value"><input size=3D"50" minlength=3D"12" maxlength=
+=3D"100" class=3D"two_columns" required=3D"required" id=3D"form_post_subjec=
+t" type=3D"text" value=3D"Re: Flashing digits from 0 to 9" name=3D"post[sub=
+ject]"><br></td>
+        </tr>
+
+
+      <tr><td colspan=3D"2">
+      <div id=3D"similar_topics" class=3D"box" style=3D"display: none;">
+        Searching for similar topics...
+        <div style=3D"text-align: right;">
+        <a href=3D"https://embdev.net/topic/394849#"><trans oldtip=3D"[hide=
+]" newtip=3D"[=E8=97=8F]">[hide]</trans></a>
+        </div>
+      </div>
+      </td></tr>
+
+              <tr class=3D"two_columns">
+          <td class=3D"prompt"><label for=3D"form_post_new_attachment"><tra=
+ns oldtip=3D"Attachment:" newtip=3D"=E9=99=84=E4=BB=B6=EF=BC=9A">Attachment=
+:</trans></label></td>
+          <td class=3D"value"><input class=3D"two_columns" id=3D"form_post_=
+new_attachment" type=3D"file" name=3D"post[new_attachment]"><br></td>
+        </tr>
+
+      <tr>
+        <td></td>
+        <td style=3D"display:none;"><input type=3D"checkbox" id=3D"form_pos=
+t_resize_new_attachment" name=3D"post[resize_new_attachment]" checked=3D"ch=
+ecked" value=3D"1"> Bild automatisch verkleinern, falls n=C3=B6tig</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><input type=3D"submit" name=3D"preview" value=3D"attach more fi=
+les"></td>
+      </tr>
+     =20
+
+
+      <tr><td colspan=3D"2">
+          <div style=3D"color: red; font-weight: bold;"><trans oldtip=3D"No=
+te: the original post is older than 6 months. Please don't ask any new ques=
+tions in this thread, but start a new one." newtip=3D"=E6=B3=A8=EF=BC=9A=E5=
+=8E=9F=E8=81=8C=E6=9C=9F=E8=B6=85=E8=BF=876=E4=B8=AA=E6=9C=88=E3=80=82=E8=
+=AF=B7=E4=B8=8D=E8=A6=81=E5=9C=A8=E8=BF=99=E4=B8=AA=E5=B8=96=E5=AD=90=E4=B8=
+=AD=E9=97=AE=E4=BB=BB=E4=BD=95=E6=96=B0=E7=9A=84=E9=97=AE=E9=A2=98=EF=BC=8C=
+=E8=80=8C=E6=98=AF=E5=BC=80=E5=A7=8B=E4=B8=80=E4=B8=AA=E6=96=B0=E7=9A=84=E9=
+=97=AE=E9=A2=98=E3=80=82">Note: the original post is older than 6 months. P=
+lease don't ask any new questions in this thread, but start a new one.</tra=
+ns></div>
+      </td></tr>
+
+              <tr><td class=3D"prompt" colspan=3D"2"><label for=3D"form_pos=
+t_text"><b><trans oldtip=3D"Text" newtip=3D"=E6=96=87=E6=9C=AC">Text</trans=
+></b>:</label></td></tr>
+        <tr><td class=3D"value" colspan=3D"2"><textarea cols=3D"75" rows=3D=
+"24" wrap=3D"soft" minlength=3D"2" required=3D"required" id=3D"form_post_te=
+xt" name=3D"post[text]"></textarea><br></td></tr>
+
+
+
+     =20
+
+
+
+
+      <tr><td colspan=3D"2">
+              </td></tr>
+      <tr><td colspan=3D"2">
+        <input type=3D"submit" name=3D"preview" value=3D"Preview">
+
+          <input type=3D"submit" name=3D"save" value=3D"Submit">
+      </td></tr>
+
+
+    </tbody></table>
+</form>
+</div>
+
+<div style=3D"float: left; margin-left: 30px;">
+<div class=3D"ad" style=3D"min-width: 1px;" id=3D"div-gpt-ad-gdaofjcs"></di=
+v>
+</div>
+
+<br style=3D"clear: both">
+</div>
+
+
+
+
+  </div>
+</div>
+
+  </div>
+  <div id=3D"nav-bottom"><div class=3D"navbar">
+  <span class=3D"left">
+    <span class=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/f=
+orum"><trans oldtip=3D"Forum List" newtip=3D"=E8=AE=BA=E5=9D=9B=E5=90=8D=E5=
+=8D=95">Forum List</trans></a></span> <span class=3D"menuitem "><a class=3D=
+"nav" href=3D"https://embdev.net/forum/fpga-vhdl-verilog"><trans oldtip=3D"=
+Topic List" newtip=3D"=E4=B8=BB=E9=A2=98=E5=88=97=E8=A1=A8">Topic List</tra=
+ns></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"https://e=
+mbdev.net/topic/new?forum_id=3D24"><trans oldtip=3D"New Topic" newtip=3D"=
+=E6=96=B0=E8=AF=9D=E9=A2=98">New Topic</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/search"><trans oldtip=
+=3D"Search" newtip=3D"=E6=90=9C=E7=B4=A2">Search</trans></a></span> <span c=
+lass=3D"menuitem "><a class=3D"nav" href=3D"https://embdev.net/user/registe=
+r"><trans oldtip=3D"Register" newtip=3D"=E5=AF=84=E5=AD=98=E5=99=A8">Regist=
+er</trans></a></span> <span class=3D"menuitem "><a class=3D"nav" href=3D"ht=
+tps://embdev.net/user/list"><trans oldtip=3D"User List" newtip=3D"=E7=94=A8=
+=E6=88=B7=E5=88=97=E8=A1=A8">User List</trans></a></span> <span class=3D"me=
+nuitem "><a class=3D"nav" href=3D"https://embdev.net/user/login"><trans old=
+tip=3D"Log In" newtip=3D"=E7=99=BB=E5=BD=95">Log In</trans></a></span>
+  </span>
+ =20
+
+  <br class=3D"clear">
+</div>
+</div>
+    <!-- google_ad_section_end -->
+    <!-- contentDetection end -->=20
+
+
+</div>
+
+  </td>
+<style type=3D"text/css">
+@media screen and (min-width: 1250px) {
+  #sidebar-right {
+    display: table-cell;
+  }
+	#outer-container {
+		max-width: 1250px;
+	}
+}
+
+@media screen and (min-width: 1500px) {
+  #sidebar-right {
+    display: table-cell;
+		width: 312px;
+	}
+  #outer-container {
+    max-width: 1390px;
+  }
+}
+</style>
+
+<td id=3D"sidebar-right" class=3D"sidebar">
+<div class=3D"nav-container">
+ <ul class=3D"nav-first">
+<li class=3D""><a href=3D"https://embdev.net/forum"><trans oldtip=3D"Forum =
+List" newtip=3D"=E8=AE=BA=E5=9D=9B=E5=90=8D=E5=8D=95">Forum List</trans></a=
+></li> <li class=3D""><a href=3D"https://embdev.net/forum/fpga-vhdl-verilog=
+"><trans oldtip=3D"Topic List" newtip=3D"=E4=B8=BB=E9=A2=98=E5=88=97=E8=A1=
+=A8">Topic List</trans></a></li> <li class=3D""><a href=3D"https://embdev.n=
+et/topic/new?forum_id=3D24"><trans oldtip=3D"New Topic" newtip=3D"=E6=96=B0=
+=E8=AF=9D=E9=A2=98">New Topic</trans></a></li> <li class=3D""><a href=3D"ht=
+tps://embdev.net/search"><trans oldtip=3D"Search" newtip=3D"=E6=90=9C=E7=B4=
+=A2">Search</trans></a></li> <li class=3D""><a href=3D"https://embdev.net/u=
+ser/list"><trans oldtip=3D"User List" newtip=3D"=E7=94=A8=E6=88=B7=E5=88=97=
+=E8=A1=A8">User List</trans></a></li> <li class=3D""><a href=3D"https://emb=
+dev.net/user/register"><trans oldtip=3D"Register" newtip=3D"=E5=AF=84=E5=AD=
+=98=E5=99=A8">Register</trans></a></li>
+  <li>
+  <ul>
+  <li class=3D""><a href=3D"https://embdev.net/user/login"><trans oldtip=3D=
+"Log In" newtip=3D"=E7=99=BB=E5=BD=95">Log In</trans></a></li>
+  </ul>
+  </li>
+</ul>
+</div>
+
+<hr>
+<div style=3D"padding: 0; text-align: center; width: 160px;" class=3D"stick=
+y">
+<div class=3D"ad" style=3D"min-width: 1px;" id=3D"div-gpt-ad-xanbcdqi"></di=
+v>
+</div>
+</td>
+  </tr>
+  </tbody></table>
+
+    <div id=3D"bottom">
+  <div id=3D"impress">
+    <a href=3D"https://embdev.net/contact"><trans oldtip=3D"Contact" newtip=
+=3D"=E6=8E=A5=E8=A7=A6">Contact</trans></a> =E2=80=93 <a href=3D"https://em=
+bdev.net/articles/Datenschutzerkl%C3%A4rung#English_version"><trans oldtip=
+=3D"Data privacy information" newtip=3D"=E6=95=B0=E6=8D=AE=E9=9A=90=E7=A7=
+=81=E4=BF=A1=E6=81=AF">Data privacy information</trans></a> =E2=80=93 <a hr=
+ef=3D"mailto:webmaster@embdev.net?subject=3DAdvertising%20on%20EmbDev.net">=
+<trans oldtip=3D"Advertising on EmbDev.net" newtip=3D"EmbDev.net=E4=B8=8A=
+=E7=9A=84=E5=B9=BF=E5=91=8A">Advertising on EmbDev.net</trans></a>
+  </div>
+  <div id=3D"powered">
+<!--    powered by Ruby on Rails -->
+  </div>
+ <a href=3D"https://embdev.net/util/rb"><!-- nothing --></a>
+</div>
+
+</div> <!-- outer-container -->
+<div class=3D"ad" style=3D"min-width: 1px;" id=3D"div-gpt-ad-pxhwcvqu"></di=
+v>
+
+
+</body><div id=3D"qbTrans-pageTrans-dialog"><!----> <span class=3D"qbTrans-=
+pageTrans-dialog-success" style=3D"display: none;"></span> <span class=3D"q=
+bTrans-pageTrans-dialog-text">=E6=98=AF=E5=90=A6=E5=B0=86=E5=BD=93=E5=89=8D=
+=E7=BD=91=E9=A1=B5=E7=BF=BB=E8=AF=91=E6=88=90=E4=B8=AD=E6=96=87</span> <div=
+ class=3D"qbTrans-pageTrans-dialog-btn">=E7=BD=91=E9=A1=B5=E7=BF=BB=E8=AF=
+=91</div> <!----> <!----> <div class=3D"qbTrans-pageTrans-dialog-close"><sp=
+an class=3D"qbTrans-pageTrans-dialog-close-text">=E5=85=B3=E9=97=AD</span> =
+<span class=3D"qbTrans-pageTrans-dialog-arrow-down"></span> <ul class=3D"qb=
+Trans-pageTrans-dialog-menu" style=3D"display: none;"><li class=3D"qbTrans-=
+pageTrans-dialog-menu-item">=E6=AD=A4=E7=BD=91=E7=AB=99=E4=B8=8D=E5=86=8D=
+=E6=8F=90=E9=86=92</li> <li class=3D"qbTrans-pageTrans-dialog-menu-item">=
+=E6=89=80=E6=9C=89=E7=BD=91=E7=AB=99=E4=B8=8D=E5=86=8D=E6=8F=90=E9=86=92</l=
+i> <!----></ul></div></div><template shadowmode=3D"v0"><content></content><=
+style></style></template></html>
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://embdev.net/assets/screen-41cf1a53959b4ba4215b236b4b4e3d9af50e6ce21790f1d31c9df01766366e27.css
+
+@charset "utf-8";
+
+html { box-sizing: border-box; }
+
+*, ::before, ::after { box-sizing: inherit; }
+
+.clear { clear: both; }
+
+div.box { background-color: rgb(245, 245, 245); padding: 1ex; margin-top: 0=
+.8ex; margin-bottom: 0.8ex; border: 1px solid rgb(202, 202, 202); }
+
+div.box h3 { padding: 0px; margin-top: 0.5ex; margin-bottom: 0.5ex; }
+
+a img { border: 0px; }
+
+img { }
+
+body { font-family: sans-serif; font-size: 0.86em; padding: 0px; margin: 0p=
+x; background-color: rgb(248, 248, 248); line-height: 1.4; }
+
+#outer-container { padding: 0px; max-width: 1100px; margin: 0px auto 20px; =
+overflow: visible; }
+
+#top { padding: 0px; margin: 0px; top: 0px; width: 100%; overflow: hidden; =
+background: linear-gradient(to right, rgb(255, 170, 0) 0%, rgb(255, 184, 71=
+) 100%); }
+
+#top h1 { font-family: Georgia, sans-serif; font-size: 1.33em; padding: 0.5=
+em 0.5em 0.2em; margin: 0px; }
+
+#top h1 object { height: 1em; pointer-events: none; }
+
+#top a { text-decoration: none; color: black; display: inline-block; }
+
+#twocolumns { border-spacing: 0px; border-collapse: collapse; width: 100%; =
+margin: 0px; }
+
+#main { background-color: rgb(255, 255, 255); margin: 0px; padding-left: 15=
+px; padding-right: 15px; padding-bottom: 15px; vertical-align: top; border-=
+right: 1px solid rgb(202, 202, 202); border-bottom: 1px solid rgb(202, 202,=
+ 202); }
+
+#main h1 { margin-top: 1.2ex; margin-bottom: 0px; padding-bottom: 0px; font=
+-size: 1.7em; }
+
+#subtitle { margin-top: 0ex; padding-top: 0px; margin-bottom: 1ex; font-siz=
+e: 1em; }
+
+.sidebar { width: 162px; padding: 6px; margin: 0px; vertical-align: top; ba=
+ckground-image: url("/images/bg.png"); background-color: rgb(244, 244, 244)=
+; background-repeat: repeat; background-position: 0px -40px; border-bottom:=
+ 1px solid rgb(202, 202, 202); }
+
+.sidebar .box { width: auto; padding: 0px 5px 5px; margin: 3px 0px 10px; fo=
+nt-size: 0.9em; }
+
+.sidebar ul li { font-size: 0.94em; }
+
+.sidebar h4 { font-size: 1.05em; font-weight: normal; margin: 0px; padding:=
+ 3px; }
+
+.sidebar h5 { font-size: 0.85em; font-weight: bold; margin: 0px; padding: 3=
+px; }
+
+#sidebar-left { border-right: 1px solid rgb(202, 202, 202); border-left: 1p=
+x solid rgb(202, 202, 202); }
+
+.sticky { position: sticky; top: 15px; }
+
+#second-adframe { margin-left: 15px; }
+
+#sidebar-right { vertical-align: top; border-right: 1px solid rgb(202, 202,=
+ 202); display: none; }
+
+#bottom { clear: both; margin: 0px; padding: 1ex; font-size: 0.8em; }
+
+#powered { text-align: right; color: rgb(176, 176, 176); }
+
+a { text-decoration: none; color: rgb(0, 34, 170); }
+
+a:visited { color: rgb(0, 32, 80); }
+
+a:hover { text-decoration: underline; }
+
+a.external { color: rgb(51, 102, 68); }
+
+a.printable { text-decoration: underline; }
+
+a.stub, #quickbar a.stub { color: rgb(119, 34, 51); text-decoration: none; =
+}
+
+a.new, #p-cactions .new a { color: rgb(204, 34, 0); }
+
+.sidebar a:visited { color: rgb(0, 34, 170); }
+
+a.currentlink { text-decoration: underline; }
+
+pre.sourcecode { background-color: rgb(231, 231, 231); border: 1px solid bl=
+ack; padding: 3px; }
+
+pre.assembler { background-color: rgb(231, 231, 231); }
+
+.imagecaption { color: gray; }
+
+.kasten { background-color: rgb(255, 255, 255); border: 1px solid rgb(160, =
+160, 160); padding: 5px; }
+
+.asm { font-family: monospace, sans-serif; }
+
+.printfooter { display: none; }
+
+#searchInputX { width: 18ex; }
+
+.sidebar #searchform { padding: 0px; margin: 0px; }
+
+.urlexpansion { display: none; }
+
+.editsection { font-size: 0.6em; }
+
+div.code table { border: 1px solid rgb(238, 238, 238); background-color: rg=
+b(248, 248, 248); table-layout: fixed; width: 100%; border-collapse: collap=
+se; }
+
+div.code td { padding: 0px; }
+
+div.code div { overflow: auto; padding: 7px; margin: 0px; }
+
+div.code pre { padding: 0px; margin: 0px; }
+
+.topbox { margin-bottom: 2ex; }
+
+.newsitems { margin-bottom: 3ex; max-width: 110ex; }
+
+.newsitems h3 { margin: 0px 0px 5px; padding: 0.3ex 0px; }
+
+hr { background-color: rgb(202, 202, 202); color: rgb(202, 202, 202); borde=
+r: rgb(202, 202, 202); height: 2px; }
+
+.newsitem { clear: both; padding-bottom: 2ex; }
+
+.newsitem .created { font-size: 0.7em; border-bottom: 1px solid rgb(160, 16=
+0, 160); margin-bottom: 0px; }
+
+.newsitem .text { text-align: justify; }
+
+.newsitem .text p { display: inline; }
+
+.newsitem .teaser a.teaser { text-decoration: inherit; color: inherit; }
+
+.newsitem .teaser a.teaser:hover { text-decoration: inherit; color: inherit=
+; }
+
+.newsitem .comments { background: url("/images/icons/fontawesome/comment-o.=
+svg") left 1px / 1em 1em no-repeat; padding-left: 1.3em; margin-left: 0.2em=
+; display: inline-block; }
+
+.newsitem .tleft { float: left; }
+
+.newsitem .thumbcaption { display: none; }
+
+.newsitem img { margin-right: 12px; margin-bottom: 12px; border: 1px solid =
+rgb(238, 238, 238); }
+
+.newsitem .thumb img { margin: 0px; }
+
+.newsitem .thumb { margin-right: 12px; margin-bottom: 12px; }
+
+.newsitem-topic div:first-of-type .attachments { display: none; }
+
+.feedandnewsletterlinks { margin-bottom: 1ex; font-size: 0.9em; }
+
+.feedandnewsletterlinks .icon { vertical-align: text-top; }
+
+img[src^=3D"/images/icons/"] { width: 16px; height: 16px; }
+
+.homepagebox { border: 1px solid rgb(238, 238, 238); padding: 1ex; border-r=
+adius: 6px; background: linear-gradient(rgb(239, 245, 255) 0%, rgb(244, 248=
+, 255) 100%); }
+
+#homefloatleft { float: left; width: 60%; padding: 0px; margin: 0px; }
+
+#homefloatright { float: right; width: 40%; padding: 0px; margin: 0px; }
+
+#article-of-the-week-notice { margin: 0px 0px 2ex; padding: 0px; }
+
+#article-of-the-week-notice h4, #homefloatright h4 { margin: 0px 0px 6px; p=
+adding: 0px; font-size: 1em; font-weight: bold; }
+
+#article-of-the-week-notice img { width: 80px; float: left; margin-right: 8=
+px; margin-bottom: 8px; border: 1px solid rgb(202, 202, 202); }
+
+#article-of-the-week-notice > div { margin: 8px; }
+
+#homefloatleft > div { margin-right: 15px; }
+
+#homefloatright > div > div { padding: 0px; margin: 0px 0px 6px; }
+
+.changes { margin-bottom: 2ex; border: 1px solid rgb(238, 238, 238); paddin=
+g: 8px; }
+
+.changes td.date { white-space: nowrap; vertical-align: top; }
+
+.changes th { text-align: left; }
+
+.changes td { font-size: 0.9em; }
+
+ul.nav-first { list-style-type: none; padding: 0px; margin: 0px; }
+
+ul.nav-first ul { list-style-type: square; margin-left: 0px; padding-left: =
+2.5ex; }
+
+dt { font-weight: bold; }
+
+table.sortable a.sortheader { background-color: rgb(238, 238, 238); color: =
+rgb(102, 102, 102); font-weight: bold; text-decoration: none; display: bloc=
+k; }
+
+table.sortable span.sortarrow { color: black; text-decoration: none; }
+
+.post-text-ad-notice { font-size: smaller; float: left; }
+
+.field_with_errors { display: inline; }
+
+.field_with_errors input { border: 2px solid red; }
+
+.unselectable { user-select: none; }
+
+.grayscale { filter: url("grayscale.svg"); }
+
+.highslide-container div { font-size: 10pt; }
+
+.highslide-container table { background: none; }
+
+.highslide { outline: none; text-decoration: none; }
+
+.highslide img { border: 2px solid silver; }
+
+.highslide:hover img { border-color: gray; }
+
+.highslide-active-anchor img { visibility: hidden; }
+
+.highslide-gallery .highslide-active-anchor img { border-color: black; visi=
+bility: visible; cursor: default; }
+
+.highslide-image { border-width: 2px; border-style: solid; border-color: wh=
+ite; }
+
+.highslide-wrapper, .highslide-outline { background: white; }
+
+.glossy-dark { background: rgb(17, 17, 17); }
+
+.highslide-number { font-weight: bold; color: gray; font-size: 0.9em; }
+
+.highslide-caption { display: none; font-size: 1em; padding: 5px; }
+
+.highslide-heading { display: none; font-weight: bold; margin: 0.4em; }
+
+.highslide-dimming { background: black; }
+
+a.highslide-full-expand { background: url("/highslide/graphics/fullexpand.g=
+if") no-repeat; display: block; margin: 0px 10px 10px 0px; width: 34px; hei=
+ght: 34px; }
+
+.highslide-loading { display: block; color: black; font-size: 9px; font-wei=
+ght: bold; text-transform: uppercase; text-decoration: none; padding: 3px 3=
+px 3px 22px; border: 1px solid white; background-color: white; background-i=
+mage: url("/highslide/graphics/loader.white.gif"); background-repeat: no-re=
+peat; background-position: 3px 1px; }
+
+a.highslide-credits, a.highslide-credits i { padding: 2px; color: silver; t=
+ext-decoration: none; font-size: 10px; }
+
+a.highslide-credits:hover, a.highslide-credits:hover i { color: white; back=
+ground-color: gray; }
+
+.highslide-move, .highslide-move * { cursor: move; }
+
+.highslide-viewport { display: none; position: fixed; width: 100%; height: =
+100%; z-index: 1; background: none; left: 0px; top: 0px; }
+
+.highslide-overlay { display: none; }
+
+.hidden-container { display: none; }
+
+.closebutton { position: relative; top: -15px; left: 15px; width: 30px; hei=
+ght: 30px; cursor: pointer; background: url("/highslide/graphics/close.png"=
+); }
+
+.highslide-gallery ul { list-style-type: none; margin: 0px; padding: 0px; }
+
+.highslide-gallery ul li { display: block; position: relative; float: left;=
+ width: 106px; height: 106px; border: 1px solid silver; background: rgb(237=
+, 237, 237); margin: 2px; line-height: 0; overflow: hidden; }
+
+.highslide-gallery ul a { position: absolute; top: 50%; left: 50%; }
+
+.highslide-gallery ul img { position: relative; top: -50%; left: -50%; }
+
+html > body .highslide-gallery ul li { display: table; text-align: center; =
+}
+
+html > body .highslide-gallery ul li { text-align: center; }
+
+html > body .highslide-gallery ul a { position: static; display: table-cell=
+; vertical-align: middle; }
+
+html > body .highslide-gallery ul img { position: static; }
+
+.highslide-controls { width: 195px; height: 40px; background: url("/highsli=
+de/graphics/controlbar-white.gif") 0px -90px no-repeat; margin: 20px 15px 1=
+0px 0px; }
+
+.highslide-controls ul { position: relative; left: 15px; height: 40px; list=
+-style: none; margin: 0px; padding: 0px; background: url("/highslide/graphi=
+cs/controlbar-white.gif") right -90px no-repeat; }
+
+.highslide-controls li { float: left; padding: 5px 0px; margin: 0px; list-s=
+tyle: none; }
+
+.highslide-controls a { background-image: url("/highslide/graphics/controlb=
+ar-white.gif"); display: block; float: left; height: 30px; width: 30px; out=
+line: none; }
+
+.highslide-controls a.disabled { cursor: default; }
+
+.highslide-controls a.disabled span { cursor: default; }
+
+.highslide-controls a span { display: none; cursor: pointer; }
+
+.highslide-controls .highslide-previous a { background-position: 0px 0px; }
+
+.highslide-controls .highslide-previous a:hover { background-position: 0px =
+-30px; }
+
+.highslide-controls .highslide-previous a.disabled { background-position: 0=
+px -60px !important; }
+
+.highslide-controls .highslide-play a { background-position: -30px 0px; }
+
+.highslide-controls .highslide-play a:hover { background-position: -30px -3=
+0px; }
+
+.highslide-controls .highslide-play a.disabled { background-position: -30px=
+ -60px !important; }
+
+.highslide-controls .highslide-pause a { background-position: -60px 0px; }
+
+.highslide-controls .highslide-pause a:hover { background-position: -60px -=
+30px; }
+
+.highslide-controls .highslide-next a { background-position: -90px 0px; }
+
+.highslide-controls .highslide-next a:hover { background-position: -90px -3=
+0px; }
+
+.highslide-controls .highslide-next a.disabled { background-position: -90px=
+ -60px !important; }
+
+.highslide-controls .highslide-move a { background-position: -120px 0px; }
+
+.highslide-controls .highslide-move a:hover { background-position: -120px -=
+30px; }
+
+.highslide-controls .highslide-full-expand a { background-position: -150px =
+0px; }
+
+.highslide-controls .highslide-full-expand a:hover { background-position: -=
+150px -30px; }
+
+.highslide-controls .highslide-full-expand a.disabled { background-position=
+: -150px -60px !important; }
+
+.highslide-controls .highslide-close a { background-position: -180px 0px; }
+
+.highslide-controls .highslide-close a:hover { background-position: -180px =
+-30px; }
+
+.highslide-maincontent { display: none; }
+
+.highslide-html { background-color: white; }
+
+.highslide-html-content { display: none; width: 400px; padding: 0px 5px 5px=
+; }
+
+.highslide-header { padding-bottom: 5px; }
+
+.highslide-header ul { margin: 0px; padding: 0px; text-align: right; }
+
+.highslide-header ul li { display: inline; padding-left: 1em; }
+
+.highslide-header ul li.highslide-previous, .highslide-header ul li.highsli=
+de-next { display: none; }
+
+.highslide-header a { font-weight: bold; color: gray; text-transform: upper=
+case; text-decoration: none; }
+
+.highslide-header a:hover { color: black; }
+
+.highslide-header .highslide-move a { cursor: move; }
+
+.highslide-footer { height: 16px; }
+
+.highslide-footer .highslide-resize { display: block; float: right; margin-=
+top: 5px; height: 11px; width: 11px; background: url("/highslide/graphics/r=
+esize.gif") no-repeat; }
+
+.highslide-footer .highslide-resize span { display: none; }
+
+.highslide-resize { cursor: nw-resize; }
+
+.draggable-header .highslide-header { height: 18px; border-bottom: 1px soli=
+d rgb(221, 221, 221); }
+
+.draggable-header .highslide-heading { position: absolute; margin: 2px 0.4e=
+m; }
+
+.draggable-header .highslide-header .highslide-move { cursor: move; display=
+: block; height: 16px; position: absolute; right: 24px; top: 0px; width: 10=
+0%; z-index: 1; }
+
+.draggable-header .highslide-header .highslide-move * { display: none; }
+
+.draggable-header .highslide-header .highslide-close { position: absolute; =
+right: 2px; top: 2px; z-index: 5; padding: 0px; }
+
+.draggable-header .highslide-header .highslide-close a { display: block; he=
+ight: 16px; width: 16px; background-image: url("/highslide/graphics/closeX.=
+png"); }
+
+.draggable-header .highslide-header .highslide-close a:hover { background-p=
+osition: 0px 16px; }
+
+.draggable-header .highslide-header .highslide-close span { display: none; =
+}
+
+.draggable-header .highslide-maincontent { padding-top: 1em; }
+
+.titlebar .highslide-header { height: 18px; border-bottom: 1px solid rgb(22=
+1, 221, 221); }
+
+.titlebar .highslide-heading { position: absolute; width: 90%; margin: 1px =
+0px 1px 5px; color: rgb(102, 102, 102); }
+
+.titlebar .highslide-header .highslide-move { cursor: move; display: block;=
+ height: 16px; position: absolute; right: 24px; top: 0px; width: 100%; z-in=
+dex: 1; }
+
+.titlebar .highslide-header .highslide-move * { display: none; }
+
+.titlebar .highslide-header li { position: relative; top: 3px; z-index: 2; =
+padding: 0px 0px 0px 1em; }
+
+.titlebar .highslide-maincontent { padding-top: 1em; }
+
+.no-footer .highslide-footer { display: none; }
+
+.wide-border { background: white; }
+
+.wide-border .highslide-image { border-width: 10px; }
+
+.wide-border .highslide-caption { padding: 0px 10px 10px; }
+
+.borderless .highslide-image { border: none; }
+
+.borderless .highslide-caption { border-bottom: 1px solid white; border-top=
+: 1px solid white; background: silver; }
+
+.outer-glow { background: rgb(68, 68, 68); }
+
+.outer-glow .highslide-image { border: 5px solid rgb(68, 68, 68); }
+
+.outer-glow .highslide-caption { border-right: 5px solid rgb(68, 68, 68); b=
+order-bottom: 5px solid rgb(68, 68, 68); border-left: 5px solid rgb(68, 68,=
+ 68); border-image: initial; border-top: none; padding: 5px; background-col=
+or: gray; }
+
+.colored-border { background: white; }
+
+.colored-border .highslide-image { border: 2px solid green; }
+
+.colored-border .highslide-caption { border-right: 2px solid green; border-=
+bottom: 2px solid green; border-left: 2px solid green; border-image: initia=
+l; border-top: none; }
+
+.dark { background: rgb(17, 17, 17); }
+
+.dark .highslide-image { border-color: black black rgb(32, 32, 32); backgro=
+und: gray; }
+
+.dark .highslide-caption { color: white; background: rgb(17, 17, 17); }
+
+.dark .highslide-controls, .dark .highslide-controls ul, .dark .highslide-c=
+ontrols a { background-image: url("/highslide/graphics/controlbar-black-bor=
+der.gif"); }
+
+.floating-caption .highslide-caption { position: absolute; padding: 1em 0px=
+ 0px; background: none; color: white; border: none; font-weight: bold; }
+
+.controls-in-heading .highslide-heading { color: gray; font-weight: bold; h=
+eight: 20px; overflow: hidden; cursor: default; padding: 0px 0px 0px 22px; =
+margin: 0px; background: url("/highslide/graphics/icon.gif") 0px 1px no-rep=
+eat; }
+
+.controls-in-heading .highslide-controls { width: 105px; height: 20px; posi=
+tion: relative; margin: 0px; top: -23px; left: 7px; background: none; }
+
+.controls-in-heading .highslide-controls ul { position: static; height: 20p=
+x; background: none; }
+
+.controls-in-heading .highslide-controls li { padding: 0px; }
+
+.controls-in-heading .highslide-controls a { background-image: url("/highsl=
+ide/graphics/controlbar-white-small.gif"); height: 20px; width: 20px; }
+
+.controls-in-heading .highslide-controls .highslide-move { display: none; }
+
+.controls-in-heading .highslide-controls .highslide-previous a { background=
+-position: 0px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-previous a:hover { back=
+ground-position: 0px -20px; }
+
+.controls-in-heading .highslide-controls .highslide-previous a.disabled { b=
+ackground-position: 0px -40px !important; }
+
+.controls-in-heading .highslide-controls .highslide-play a { background-pos=
+ition: -20px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-play a:hover { backgrou=
+nd-position: -20px -20px; }
+
+.controls-in-heading .highslide-controls .highslide-play a.disabled { backg=
+round-position: -20px -40px !important; }
+
+.controls-in-heading .highslide-controls .highslide-pause a { background-po=
+sition: -40px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-pause a:hover { backgro=
+und-position: -40px -20px; }
+
+.controls-in-heading .highslide-controls .highslide-next a { background-pos=
+ition: -60px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-next a:hover { backgrou=
+nd-position: -60px -20px; }
+
+.controls-in-heading .highslide-controls .highslide-next a.disabled { backg=
+round-position: -60px -40px !important; }
+
+.controls-in-heading .highslide-controls .highslide-full-expand a { backgro=
+und-position: -100px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-full-expand a:hover { b=
+ackground-position: -100px -20px; }
+
+.controls-in-heading .highslide-controls .highslide-full-expand a.disabled =
+{ background-position: -100px -40px !important; }
+
+.controls-in-heading .highslide-controls .highslide-close a { background-po=
+sition: -120px 0px; }
+
+.controls-in-heading .highslide-controls .highslide-close a:hover { backgro=
+und-position: -120px -20px; }
+
+.text-controls .highslide-controls { width: auto; height: auto; margin: 0px=
+; text-align: center; background: none; }
+
+.text-controls ul { position: static; background: none; height: auto; left:=
+ 0px; }
+
+.text-controls .highslide-move { display: none; }
+
+.text-controls li { background-image: url("/highslide/graphics/controlbar-t=
+ext-buttons.png"); padding: 0px; margin-left: 15px; display: block; width: =
+auto; background-position: right top !important; }
+
+.text-controls a { background-image: url("/highslide/graphics/controlbar-te=
+xt-buttons.png"); background-size: initial; background-repeat: no-repeat; b=
+ackground-attachment: initial; background-origin: initial; background-clip:=
+ initial; background-color: initial; position: relative; left: -10px; displ=
+ay: block; width: auto; height: auto; background-position: left top !import=
+ant; text-decoration: none !important; }
+
+.text-controls a span { background: url("/highslide/graphics/controlbar-tex=
+t-buttons.png") no-repeat; margin: 1px 2px 1px 10px; display: block; min-wi=
+dth: 4em; height: 18px; line-height: 18px; padding: 1px 0px 1px 18px; color=
+: rgb(51, 51, 51); font-size: 12px; font-weight: bold; white-space: nowrap;=
+ }
+
+.text-controls .highslide-next { margin-right: 1em; }
+
+.text-controls .highslide-full-expand a span { min-width: 0px; margin: 1px =
+0px; padding: 1px 0px 1px 10px; }
+
+.text-controls .highslide-close a span { min-width: 0px; }
+
+.text-controls a:hover span { color: black; }
+
+.text-controls a.disabled span { color: rgb(153, 153, 153); }
+
+.text-controls .highslide-previous span { background-position: 0px -40px; }
+
+.text-controls .highslide-previous a.disabled { background-position: left t=
+op !important; }
+
+.text-controls .highslide-previous a.disabled span { background-position: 0=
+px -140px; }
+
+.text-controls .highslide-play span { background-position: 0px -60px; }
+
+.text-controls .highslide-play a.disabled { background-position: left top !=
+important; }
+
+.text-controls .highslide-play a.disabled span { background-position: 0px -=
+160px; }
+
+.text-controls .highslide-pause span { background-position: 0px -80px; }
+
+.text-controls .highslide-next span { background-position: 0px -100px; }
+
+.text-controls .highslide-next a.disabled { background-position: left top !=
+important; }
+
+.text-controls .highslide-next a.disabled span { background-position: 0px -=
+200px; }
+
+.text-controls .highslide-full-expand span { background: none; }
+
+.text-controls .highslide-full-expand a.disabled { background-position: lef=
+t top !important; }
+
+.text-controls .highslide-close span { background-position: 0px -120px; }
+
+.highslide-thumbstrip { height: 100%; direction: ltr; }
+
+.highslide-thumbstrip div { overflow: hidden; }
+
+.highslide-thumbstrip table { position: relative; padding: 0px; border-coll=
+apse: collapse; }
+
+.highslide-thumbstrip td { padding: 1px; }
+
+.highslide-thumbstrip a { outline: none; }
+
+.highslide-thumbstrip img { display: block; border: 1px solid gray; margin:=
+ 0px auto; }
+
+.highslide-thumbstrip .highslide-active-anchor img { visibility: visible; }
+
+.highslide-thumbstrip .highslide-marker { position: absolute; width: 0px; h=
+eight: 0px; border-width: 0px; border-style: solid; border-color: transpare=
+nt; }
+
+.highslide-thumbstrip-horizontal div { width: auto; }
+
+.highslide-thumbstrip-horizontal .highslide-scroll-up { display: none; posi=
+tion: absolute; top: 3px; left: 3px; width: 25px; height: 42px; }
+
+.highslide-thumbstrip-horizontal .highslide-scroll-up div { margin-bottom: =
+10px; cursor: pointer; background: url("/highslide/graphics/scrollarrows.pn=
+g") left center no-repeat; height: 42px; }
+
+.highslide-thumbstrip-horizontal .highslide-scroll-down { display: none; po=
+sition: absolute; top: 3px; right: 3px; width: 25px; height: 42px; }
+
+.highslide-thumbstrip-horizontal .highslide-scroll-down div { margin-bottom=
+: 10px; cursor: pointer; background: url("/highslide/graphics/scrollarrows.=
+png") right center no-repeat; height: 42px; }
+
+.highslide-thumbstrip-horizontal table { margin: 2px 0px 10px; }
+
+.highslide-viewport .highslide-thumbstrip-horizontal table { margin-left: 1=
+0px; }
+
+.highslide-thumbstrip-horizontal img { width: auto; height: 40px; }
+
+.highslide-thumbstrip-horizontal .highslide-marker { top: 47px; border-left=
+-width: 6px; border-right-width: 6px; border-bottom: 6px solid gray; }
+
+.highslide-viewport .highslide-thumbstrip-horizontal .highslide-marker { ma=
+rgin-left: 10px; }
+
+.dark .highslide-thumbstrip-horizontal .highslide-marker, .highslide-viewpo=
+rt .highslide-thumbstrip-horizontal .highslide-marker { border-bottom-color=
+: white !important; }
+
+.highslide-thumbstrip-vertical-overlay { overflow: hidden !important; }
+
+.highslide-thumbstrip-vertical div { height: 100%; }
+
+.highslide-thumbstrip-vertical a { display: block; }
+
+.highslide-thumbstrip-vertical .highslide-scroll-up { display: none; positi=
+on: absolute; top: 0px; left: 0px; width: 100%; height: 25px; }
+
+.highslide-thumbstrip-vertical .highslide-scroll-up div { margin-left: 10px=
+; cursor: pointer; background: url("/highslide/graphics/scrollarrows.png") =
+center top no-repeat; height: 25px; }
+
+.highslide-thumbstrip-vertical .highslide-scroll-down { display: none; posi=
+tion: absolute; bottom: 0px; left: 0px; width: 100%; height: 25px; }
+
+.highslide-thumbstrip-vertical .highslide-scroll-down div { margin-left: 10=
+px; cursor: pointer; background: url("/highslide/graphics/scrollarrows.png"=
+) center bottom no-repeat; height: 25px; }
+
+.highslide-thumbstrip-vertical table { margin: 10px 0px 0px 10px; }
+
+.highslide-thumbstrip-vertical img { width: 60px; }
+
+.highslide-thumbstrip-vertical .highslide-marker { left: 0px; margin-top: 8=
+px; border-top-width: 6px; border-bottom-width: 6px; border-left: 6px solid=
+ gray; }
+
+.dark .highslide-thumbstrip-vertical .highslide-marker, .highslide-viewport=
+ .highslide-thumbstrip-vertical .highslide-marker { border-left-color: whit=
+e; }
+
+.highslide-viewport .highslide-thumbstrip-float { overflow: auto; }
+
+.highslide-thumbstrip-float ul { margin: 2px 0px; padding: 0px; }
+
+.highslide-thumbstrip-float li { display: block; height: 60px; margin: 0px =
+2px; list-style: none; float: left; }
+
+.highslide-thumbstrip-float img { display: inline; border-color: silver; ma=
+x-height: 56px; }
+
+.highslide-thumbstrip-float .highslide-active-anchor img { border-color: bl=
+ack; }
+
+.highslide-thumbstrip-float .highslide-scroll-up div, .highslide-thumbstrip=
+-float .highslide-scroll-down div { display: none; }
+
+.highslide-thumbstrip-float .highslide-marker { display: none; }
+
+.formError { color: red; }
+
+.fieldWithErrors input { border: 1px solid red; }
+
+.fieldWithErrors { display: inline; }
+
+.left { float: left; }
+
+.right { float: right; }
+
+div.captcha { border: 1px solid gray; background-color: white; width: 50ex;=
+ text-align: center; padding: 2ex; margin: 2ex; }
+
+.edit_user input[type=3D"text"], .edit_user input[type=3D"email"] { min-wid=
+th: 30ex; }
+
+.edit_user td { padding-bottom: 0.5em; }
+
+.edit_user input[type=3D"checkbox"] { transform: scale(1.3); padding: 10px;=
+ }
+
+form label { margin-right: 1ex; }
+
+form .error { color: red; }
+
+.user div.show .user_message textarea { width: 80ex; height: 15em; }
+
+.disabled { text-decoration: line-through; }
+
+div.list { font-size: 0.96em; }
+
+.forum div.list td, th { padding: 1ex; }
+
+.forum div.list .name { font-weight: bold; }
+
+.forum div.list .description { font-size: 0.8em; }
+
+.forum div.list .edit { font-size: smaller; font-weight: normal; }
+
+.forum div.forum td.subject { min-width: 50%; padding-left: 1ex; }
+
+.list th, .list td { padding: 0.5ex; margin: 0px; font-weight: normal; text=
+-align: left; }
+
+.forum .forum .filter { font-size: 0.94em; }
+
+.forum .forum .filter a { margin-left: 5px; }
+
+.forum .forum .filter input { vertical-align: middle; }
+
+.forum .forum table.topics td.replies { text-align: center; }
+
+table.topics .new-posts .last-post { color: red; }
+
+table.topics .subject { width: 100%; }
+
+table.topics .author { min-width: 10em; max-width: 12em; overflow: hidden; =
+text-overflow: ellipsis; white-space: nowrap; word-wrap: break-word; }
+
+table.topics .replies { width: 1px; }
+
+table.topics .last-post { padding-left: 10px; width: 1px; white-space: nowr=
+ap; }
+
+.forum .forum table.topics .deleted-topic * { color: rgb(208, 208, 208) !im=
+portant; }
+
+table.list { border: 1px solid rgb(202, 202, 202); border-collapse: collaps=
+e; width: 100%; }
+
+table.list tr.headrow { background-color: rgb(255, 170, 0); }
+
+table.list tr.odd td { background-color: rgb(245, 245, 245); }
+
+.forum .post { padding: 0px 0px 0.4ex; margin-bottom: 0.9ex; margin-top: 0.=
+9ex; font-size: 1em; }
+
+.forum .post pre { margin: 0px; font-size: 0.95em; line-height: 1.3em; font=
+-family: monospace, sans-serif; white-space: pre-wrap; }
+
+.forum .post .logged_actions { font-size: 0.8em; }
+
+.forum .wrapper { margin: 0px; padding: 0px; border: none; }
+
+.forum .new-post .subject { text-decoration: underline; }
+
+.forum .deleted-post * { color: rgb(208, 208, 208) !important; }
+
+.forum .deleted-post-notice { margin: 0px 0px 1.5ex; padding: 0px; font-siz=
+e: 0.8em; color: rgb(208, 208, 208) !important; }
+
+.forum .deleted-post-notice a { color: rgb(160, 160, 224); }
+
+ul.attachments-files { padding: 3px 0px 0px; margin: 0px; }
+
+ul.attachments-files li { padding: 5px; margin: 0px 5px 5px 0px; list-style=
+-type: none; float: left; border: 1px solid rgb(221, 221, 221); background:=
+ rgb(255, 255, 204); }
+
+ul.attachments-images { clear: both; padding: 3px 0px 0px; margin: 0px; }
+
+ul.attachments-images li { padding: 5px; margin: 0px 5px 5px 0px; list-styl=
+e-type: none; float: left; border: 1px solid rgb(221, 221, 221); background=
+: rgb(238, 238, 238); }
+
+ul.attachments-images li img { box-sizing: content-box; border: 2px solid w=
+hite; }
+
+.forum .post .subject { background-color: rgb(255, 170, 0); color: black; m=
+argin-bottom: 0px; padding: 3px; font-size: 0.9em; }
+
+.forum .post .subject a { color: black; }
+
+.forum .post .info { padding: 1ex 0.5em; margin: 0px; }
+
+.forum .post .info table, .forum .post .info tr, .forum .post .info td { pa=
+dding: 0px; margin: 0px; border-collapse: collapse; }
+
+.forum .post hr { margin: 0px 0px 1ex; height: 1px; }
+
+.forum .post .text { line-height: 1.5em; padding: 0.5em; margin: 0px; }
+
+.forum .post .text img { margin: 0px 12px 12px; border: 1px solid rgb(238, =
+238, 238); max-width: 100%; }
+
+.forum .post .info div.attachment { display: block; }
+
+.forum .post .text :first-child { margin-top: 0px; }
+
+.forum .post .text :last-child { margin-bottom: 0px; }
+
+.forum .post .text p { max-width: 52em; }
+
+.forum .post .text { word-wrap: break-word; word-break: break-word; }
+
+.forum .post .math { padding: 5px; }
+
+p.attribution-line { margin-bottom: -1em; }
+
+.attribution-line a { color: inherit !important; }
+
+.post-vote-links { display: none; margin-right: 1ex; margin-left: 1ex; marg=
+in-bottom: 1ex; color: gray; }
+
+.post-vote-links .score { font-size: 200%; }
+
+.post-vote-links td { vertical-align: middle; }
+
+.forum .post .post-vote-links .active { color: orange !important; }
+
+.forum .post .post-vote-links a { color: inherit !important; }
+
+.forum .post .foot { margin: 0px; text-align: right; padding: 3px; font-siz=
+e: 0.8em; }
+
+.menuitem::before { content: " | "; }
+
+.menuitem:first-child::before { content: ""; }
+
+.postmenuitem-delete { display: none; }
+
+.postmenuitem-lock { display: none; }
+
+.postmenuitem-merge { display: none; }
+
+.postmenuitem-edit { display: none; }
+
+.postmenuitem-move { display: none; }
+
+.postmenuitem-report { display: none; }
+
+.postmenuitem-replyto { display: none; }
+
+.postmenuitem-lock_for_guests { display: none; }
+
+.postmenuitem-unlock_for_guests { display: none; }
+
+.forum textarea { font-size: 0.92em; font-family: monospace, sans-serif; }
+
+.postform .postform-info { max-width: 70ex; }
+
+.forum .topic .foot a { padding: 1px 3px; text-decoration: none; }
+
+.forum .post a.wiki { color: rgb(0, 0, 160); }
+
+.forum .post a.shop { color: rgb(0, 0, 160); border-bottom: 1px dotted rgb(=
+0, 0, 160); }
+
+a.part-autolink { color: inherit; border-bottom: 1px dotted rgb(128, 128, 1=
+28); }
+
+.forum .post a.post-text-ad { color: rgb(0, 0, 160); }
+
+.forum .post a.post-text-ad::after { content: "*"; font-size: 0.9em; color:=
+ rgb(128, 128, 128); }
+
+.forum .post .post-text-ad-notice { color: rgb(128, 128, 128); }
+
+.forum .post span.quoting-level-1 { color: rgb(0, 112, 0); }
+
+.forum .post span.quoting-level-2 { color: rgb(0, 0, 112); }
+
+.forum .post span.quoting-level-3 { color: rgb(112, 0, 0); }
+
+.forum .post span.quoting-level-5 { color: rgb(128, 0, 128); }
+
+.forum .post span.quoting-level-4 { color: rgb(0, 96, 96); }
+
+.forum .post span.quoting-level-6 { color: rgb(96, 96, 0); }
+
+.forum .post .quoting { margin-left: 2px; padding-left: 5px; margin-bottom:=
+ 8px; margin-top: 8px; text-align: justify; }
+
+.forum .post blockquote { margin: 1em 0px; padding: 0px 0px 0px 1ex; }
+
+.forum .post blockquote { border-left: 2px solid rgb(0, 112, 0); }
+
+.forum .post blockquote blockquote { border-left: 2px solid rgb(0, 0, 112);=
+ }
+
+.forum .post blockquote blockquote blockquote { border-left: 2px solid rgb(=
+112, 0, 0); }
+
+.forum .post blockquote blockquote blockquote blockquote { border-left: 2px=
+ solid rgb(0, 96, 96); }
+
+.forum .post blockquote blockquote blockquote blockquote blockquote { borde=
+r-left: 2px solid rgb(128, 0, 128); }
+
+.forum .post blockquote blockquote blockquote blockquote blockquote blockqu=
+ote { border-left: 2px solid rgb(96, 96, 0); }
+
+.forum .post div.level-0 { margin: 0px; padding: 0px; }
+
+.forum .post div.level-1 { border-left: 2px solid rgb(0, 112, 0); }
+
+.forum .post div.level-2 { border-left: 2px solid rgb(0, 0, 112); }
+
+.forum .post div.level-3 { border-left: 2px solid rgb(112, 0, 0); }
+
+.forum .post div.level-4 { border-left: 2px solid rgb(0, 96, 96); }
+
+.forum .post div.level-5 { border-left: 2px solid rgb(128, 0, 128); }
+
+.forum .post div.level-6 { border-left: 2px solid rgb(96, 96, 0); }
+
+.forum .post a.postedlink { display: inline-block; max-width: 44ex; white-s=
+pace: nowrap; text-overflow: ellipsis; overflow: hidden; vertical-align: mi=
+ddle; }
+
+.forum td .icon { margin-bottom: -2px; }
+
+.forum .post .user-wikipage-link img { position: relative; top: -2px; verti=
+cal-align: middle; }
+
+.forum .topic-subscription img { position: relative; top: -2px; vertical-al=
+ign: middle; }
+
+.forum .included-forum-info { font-size: 0.9em; }
+
+.forum .search form div { margin-top: 1ex; margin-bottom: 1ex; }
+
+div.navbar { margin-top: 1.5ex; margin-bottom: 1.5ex; font-size: 1em; }
+
+div.navbar a { color: rgb(16, 71, 169); }
+
+h1#pageName { margin-top: 0.6ex; padding: 0px; }
+
+h1#pageName small { font-size: 0.42em; padding: 0px; display: block; }
+
+h1#pageName small a { color: rgb(0, 34, 170) !important; }
+
+#suggest_different_forum { font-weight: bold; }
+
+#suggest_different_forum a { font-weight: normal; }
+
+#similar_topics { max-width: 80ex; }
+
+#similar_topics table .author { display: none; }
+
+.jobtopic .hide { cursor: default; color: gray; margin-right: 2ex; display:=
+ inline; }
+
+.jobtopic:hover .hide { color: black; display: inline !important; }
+
+.cse-branding-bottom, .cse-branding-right { margin: 0px; padding: 0px; }
+
+.cse-branding-bottom, .cse-branding-right { zoom: 1; }
+
+.cse-branding-bottom::after, .cse-branding-right::after { content: "."; dis=
+play: block; height: 0px; clear: both; visibility: hidden; }
+
+.cse-branding-text { font-style: normal; font-variant: normal; font-weight:=
+ normal; font-stretch: normal; font-size: 10px; line-height: normal; font-f=
+amily: Arial; }
+
+.cse-branding-form form { margin-bottom: 0px; padding-bottom: 0px; }
+
+.cse-branding-bottom .cse-branding-logo, .cse-branding-bottom .cse-branding=
+-text { display: block; float: left; }
+
+.cse-branding-bottom .cse-branding-form { margin-bottom: 3px; }
+
+.cse-branding-bottom .cse-branding-logo { padding: 0px; }
+
+.cse-branding-bottom .cse-branding-text { padding-top: 4px; }
+
+.cse-branding-right .cse-branding-form { float: left; }
+
+.cse-branding-right .cse-branding-logo, .cse-branding-right .cse-branding-t=
+ext { margin-left: 4px; }
+
+.cse-branding-right .cse-branding-form { float: left; margin-right: 4px; }
+
+.cse-branding-right .cse-branding-logo { padding: 0px; }
+
+.cse-branding-right .cse-branding-text { margin-top: -4px; }
+
+#hamburger { border: 1px solid rgb(55, 76, 119); border-radius: 3px; cursor=
+: pointer; height: 25px; padding: 3px 4px; width: 25px; background: linear-=
+gradient(rgb(69, 105, 178) 0%, rgb(64, 98, 165) 100%); z-index: 999; float:=
+ right; position: absolute; right: 15px; top: 6px; display: none; }
+
+#hamburger div { background-color: rgb(255, 255, 255); border: 1px solid rg=
+b(238, 238, 238); border-radius: 2px; height: 2px; margin-top: 3px; margin-=
+left: 5%; width: 90%; }
+
+@media only screen and (max-width: 900px) {
+  .postform textarea { width: 100%; }
+  .postform input { max-width: 100%; }
+  .post .text pre { white-space: pre-wrap; }
+}
+
+@media only screen and (max-width: 700px) {
+  table.twocolumns { display: block; }
+  table.twocolumns > tr { display: block; }
+  #sidebar-left { display: block; width: 100%; border-bottom: 1px solid rgb=
+(160, 160, 160); overflow: hidden; max-height: 0em; transition: max-height =
+0.2s ease-out; padding: 0px; }
+  #sidebar-left.mobile-menu-open { max-height: 60em; }
+  #hamburger { display: block; }
+  #sidebar-left .nav-first div { float: left; display: block; }
+  #sidebar-left .nav-first { column-width: 190px; }
+  #sidebar-left .nav-first li:last-child { break-before: avoid; }
+  #sidebar-left hr, #sidebar-left .ad { display: none; }
+  ul.nav-first > li { margin-right: 0.5em; margin-left: 0.5em; font-size: 1=
+em; }
+  #main { display: block; }
+  html { margin: 0px; text-size-adjust: none; }
+  .postform { width: 100%; }
+  .postform textarea { width: 100%; }
+}
+
+@media only screen and (max-width: 480px) {
+  #homefloatright { width: 100%; float: none; }
+  #homefloatleft { width: 100%; float: none; }
+  .newsitem { display: none; }
+  .newsitem:first-child, .newsitem:nth-child(2) { display: block; }
+  .newsitem-small { display: none; }
+  table.topics .author span { display: none; }
+  table.topics .subject { word-wrap: break-word; word-break: break-word; }
+  table.topics .author { width: 0px; min-width: 0px; max-width: 0px; }
+  table.topics .last-post { font-size: 0.5em; max-width: 10em; }
+  table.topics th.replies { font-size: 0.5em; }
+  table.topics .replies { max-width: 6em; }
+  .postform table, .postform td, .postform tr { display: block; }
+  .postform input[name=3D"post[subject]"] { width: 100%; }
+  .postform table, .postform td, .postform tr { display: block; }
+}
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://embdev.net/images/bg.png
+
+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
+AAAASUVORK5CYII=
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://embdev.net/assets/print-80f24115f86985d1d30d60a2b339bf75dbcaa308b178ae1f8f564dce91da9e1a.css
+
+@charset "utf-8";
+
+#top { border-bottom: 1px solid black; font-family: Georgia; }
+
+#top h1 { font-size: 1.3em; }
+
+.sidebar { display: none; }
+
+#impress { display: none; }
+
+.editsection { display: none; }
+
+#forumfilter { display: none; }
+
+.navbar { display: none; }
+
+.post .foot { display: none; }
+
+.noprint { display: none !important; }
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://embdev.net/images/icons/email_add.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKLSURBVDjLpVNLaBNRFD3vZTKZfCaftmlt
+mghGLHUhVUQoRRApRVyo4M6luBBEQXDTjftu3IhW0IWgCNaN2qrUuGjFUmpR/EORgpbUhk7zaTOd
+JPN5M76ZVFBXhT44vDsz79w59553ieM42M6i2OYSrt55OymF5ANF1QxvNCxqc0E2HDAe2Fwd47Dt
+5vMmHBBmmrX1Yn5+YUFIJmKZ86e6o7rpECng+yc7+T8mzb2uW766zlJnhvUGVapW1rBs8mCygHzR
+gKY7WCzZyJdtLK3ZKKzbUFQHRc2ByYClkoHrzwqoaDqVk5ndVNMZCfgpujqjyL1XsLZhoiNK4Odi
+RB+BKLgA4kGCUtXAo+kVxFuiaI0HPE201rA8idkdEaQ7oph4p6CimmiLUI8o8kQxiaCsumQFba1R
+ZLsiIJvmUa3Bmt3kB7OpCJKJEEan8h7BJcocJR7fe5VHLBbyzgSFv2zU6k0FhHfHMi1Igo2dXXE8
+n1OwVGx4eDqrIMPfySIDdSxP2Z/OCjWdwVVjGBZWyioyHTJE0Y9CWcKb+ap3UbozCSyvvsTc93Go
+tQoahoEjvScA56CbwHK4t0QpcXJSRlDyw824qz2EnRyubTOfRvGjksPRw4eQbtmDyW9PkPt6C9VS
+Py+h/Ounzn3sSQedVIKiJcx4AxnaZYZU1EYnx9SH+9jf0wtGGXo7B8GIib59/dCqLxzB2FhdHLg8
+kQjI4bAQ8BGBd5Ny+3xcO6UElNfr0wqCn0RwfO85r/QrA7cx/mWER2OEbGWY+i+l66dPHpMsfsmH
+Bu9iOHcWki+Ah4/HGlsaJtuxr81+noEIwfuzSARMf3ztfrpJtjrOfRdTw3y7wCFzqBwjszeWh34D
+RKkiE0cpxFcAAAAASUVORK5CYII=
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://embdev.net/images/icons/page_white_stack.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADPSURBVCjPdZFNCsIwEEZHPYdSz1DaHsMz
+uPM6RRcewSO4caPQ3sBDKCK02p+08DmZtGkKlQ+GhHm8MBmiFQUU2ng0B7khClTdQqdBiX1Ma1qM
+gbDlxh0XnJHiit2JNq5HgAo3KEx7BFAM/PMI0CDB2KNvh1gjHZBi8OR448GnAkeNDEDvKZDh2Xl4
+cBcwtcKXkZdYLJBYwCCFPDRpMEjNyKcDPC4RbXuPiWKkNABPOuNhItegz0pGFkD+y3p0s48DDB43
+dU7+eLWes3gdn5Y/LD9Y6skuWXcAAAAASUVORK5CYII=
+------MultipartBoundary--1Qf2I54vulfcCVxdQ7TLBGd6I2meXvDSwbwsNK7uux------

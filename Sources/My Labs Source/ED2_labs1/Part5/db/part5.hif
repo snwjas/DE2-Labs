@@ -1,0 +1,172 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+part5
+# storage
+db|part5.(0).cnf
+db|part5.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+16c976abaafa1dd65257be16f4ec1bd7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+mux_3bit_5to1
+# storage
+db|part5.(1).cnf
+db|part5.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+16c976abaafa1dd65257be16f4ec1bd7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(s)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(u)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(v)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(w)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(x)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(m)
+2 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux_3bit_5to1:M4
+mux_3bit_5to1:M3
+mux_3bit_5to1:M2
+mux_3bit_5to1:M1
+mux_3bit_5to1:M0
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+char_7seg
+# storage
+db|part5.(2).cnf
+db|part5.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+16c976abaafa1dd65257be16f4ec1bd7
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(c)
+2 downto 0
+PARAMETER_STRING
+USR
+ constraint(display)
+0 to 6
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+char_7seg:H7
+char_7seg:H6
+char_7seg:H5
+char_7seg:H4
+char_7seg:H3
+char_7seg:H2
+char_7seg:H1
+char_7seg:H0
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+

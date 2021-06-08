@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="part3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|part3|counter16:counter|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_mpi.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

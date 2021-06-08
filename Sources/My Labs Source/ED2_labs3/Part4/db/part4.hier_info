@@ -1,0 +1,12 @@
+|part4
+Clk => Qa$latch.LATCH_ENABLE
+Clk => Qb~reg0.CLK
+Clk => Qc~reg0.CLK
+D => Qa$latch.DATAIN
+D => Qb~reg0.DATAIN
+D => Qc~reg0.DATAIN
+Qa <= Qa$latch.DB_MAX_OUTPUT_PORT_TYPE
+Qb <= Qb~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Qc <= Qc~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

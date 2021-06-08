@@ -1,0 +1,8 @@
+|part1
+Clk => S_g~0.IN0
+Clk => R_g~0.IN0
+R => R_g~0.IN1
+S => S_g~0.IN1
+Q <= Q~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

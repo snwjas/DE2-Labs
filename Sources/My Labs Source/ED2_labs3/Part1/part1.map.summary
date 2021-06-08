@@ -1,0 +1,17 @@
+Flow Status : Successful - Sat Dec 08 23:22:37 2018
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : part1
+Top-level Entity Name : part1
+Family : Cyclone II
+Device : EP2C35F672C6
+Timing Models : Final
+Met timing requirements : N/A
+Total logic elements : N/A until Partition Merge
+    Total combinational functions : N/A until Partition Merge
+    Dedicated logic registers : N/A until Partition Merge
+Total registers : N/A until Partition Merge
+Total pins : N/A until Partition Merge
+Total virtual pins : N/A until Partition Merge
+Total memory bits : N/A until Partition Merge
+Embedded Multiplier 9-bit elements : N/A until Partition Merge
+Total PLLs : N/A until Partition Merge

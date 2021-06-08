@@ -1,0 +1,236 @@
+Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+part5
+# storage
+db|part5.(0).cnf
+db|part5.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+c01260bf826c615931b9d5386242728
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+part4
+# storage
+db|part5.(1).cnf
+db|part5.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+c01260bf826c615931b9d5386242728
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(b)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(s0)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+part4:BCD_0
+part4:BCD_1
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+fa
+# storage
+db|part5.(2).cnf
+db|part5.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+c01260bf826c615931b9d5386242728
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+part4:BCD_0|fa:bit0
+part4:BCD_0|fa:bit1
+part4:BCD_0|fa:bit2
+part4:BCD_0|fa:bit3
+part4:BCD_1|fa:bit0
+part4:BCD_1|fa:bit1
+part4:BCD_1|fa:bit2
+part4:BCD_1|fa:bit3
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bcd_decimal
+# storage
+db|part5.(3).cnf
+db|part5.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+c01260bf826c615931b9d5386242728
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(v)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(m)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+part4:BCD_0|bcd_decimal:BCD_S
+part4:BCD_1|bcd_decimal:BCD_S
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bcd7seg
+# storage
+db|part5.(4).cnf
+db|part5.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+part5.vhd
+c01260bf826c615931b9d5386242728
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(b)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(h)
+0 to 6
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+bcd7seg:digit7
+bcd7seg:digit6
+bcd7seg:digit5
+bcd7seg:digit4
+bcd7seg:digit2
+bcd7seg:digit1
+bcd7seg:digit0
+}
+# lmf
+..|..|..|..|programfiles|quartusii9.0|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# complete
+
